@@ -1,0 +1,1379 @@
+Log file open, 07/09/14 03:06:27
+LogInit:Display: Running engine without a game
+LogInit:Display: Loading recent project file: D:/UDK4 Projects/MyProject3/MyProject3.uproject
+LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line: 
+LogInit: Base directory: E:/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.07.09-01.06.27:863][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.07.09-01.06.27:908][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.07.09-01.06.27:927][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.07.09-01.06.27:933][  0]LogInit: Object subsystem initialized
+[2014.07.09-01.06.27:935][  0]LogInit: Selected Device Profile: [Windows]
+[2014.07.09-01.06.27:935][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.07.09-01.06.27:939][  0]LogInit: Computer: SPAEHLING-PC
+[2014.07.09-01.06.27:939][  0]LogInit: User: Spaehling
+[2014.07.09-01.06.27:939][  0]LogInit: CPU Page size=4096, Cores=6
+[2014.07.09-01.06.27:939][  0]LogInit: High frequency timer resolution =3.126953 MHz
+[2014.07.09-01.06.27:939][  0]LogMemory: Memory total: Physical=64.0GB (64GB approx) Virtual=8192.0GB
+[2014.07.09-01.06.27:940][  0]LogMemory: Platform Memory Stats for Windows
+[2014.07.09-01.06.27:940][  0]LogMemory: Process Physical Memory: 60.35 MB used, 60.35 MB peak
+[2014.07.09-01.06.27:940][  0]LogMemory: Process Virtual Memory: 36.57 MB used, 36.73 MB peak
+[2014.07.09-01.06.27:940][  0]LogMemory: Physical Memory: 7102.03 MB used, 65486.15 MB total
+[2014.07.09-01.06.27:940][  0]LogMemory: Virtual Memory: 244.71 MB used, 8388608.00 MB total
+[2014.07.09-01.06.28:272][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 690 (Feature Level 11_0)
+[2014.07.09-01.06.28:272][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.07.09-01.06.28:293][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 690 (Feature Level 11_0)
+[2014.07.09-01.06.28:293][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.07.09-01.06.28:293][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.07.09-01.06.28:298][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.07.09-01.06.28:307][  0]LogD3D11RHI: Async texture creation enabled
+[2014.07.09-01.06.28:388][  0]LogTextLocalizationManager:Warning: The selected culture 'de_DE' is not available; falling back to 'en'
+[2014.07.09-01.06.28:435][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.07.09-01.06.29:225][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.09-01.06.29:344][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.09-01.06.29:374][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.07.09-01.06.29:407][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Spaehling/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.09-01.06.29:407][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Spaehling/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.07.09-01.06.29:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UDK4 Projects/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.07.09-01.06.29:407][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.07.09-01.06.29:417][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.07.09-01.06.29:428][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Spaehling/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.07.09-01.06.29:787][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.07.09-01.06.29:787][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.07.09-01.06.30:070][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.07.09-01.06.30:816][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.07.09-01.06.30:816][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.07.09-01.06.30:834][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.07.09-01.06.30:834][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.07.09-01.06.31:463][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.07.09-01.06.31:590][  0]SourceControl: Info Source control is disabled
+[2014.07.09-01.06.31:590][  0]SourceControl: Info Source control is disabled
+[2014.07.09-01.06.31:596][  0]SourceControl: Info Source control is disabled
+[2014.07.09-01.06.31:706][  0]BlueprintLog: New page: Editor Load
+[2014.07.09-01.06.31:794][  0]LogObj: 19203 objects as part of root set at end of initial load.
+[2014.07.09-01.06.31:794][  0]LogUObjectAllocator: 3820568 out of 0 bytes used by permanent object pool.
+[2014.07.09-01.06.32:116][  0]LogEngine: Initializing Engine...
+[2014.07.09-01.06.32:229][  0]LogInit: XAudio2 using 'Lautsprecher (Corsair Vengeance 2000 Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
+[2014.07.09-01.06.32:256][  0]LogInit: FAudioDevice initialized.
+[2014.07.09-01.06.32:278][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Spaehling/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.09-01.06.32:282][  0]LogInit: Texture streaming: Enabled
+[2014.07.09-01.06.32:316][  0]LogInit: Transaction tracking system initialized
+[2014.07.09-01.06.32:439][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2014.07.09-01.06.32:646][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.09-01.06.32:650][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.09-01.06.32:713][  0]LogConsoleResponse:Display: 
+[2014.07.09-01.06.32:926][  0]SourceControl: Info Source control is disabled
+[2014.07.09-01.06.32:926][  0]Cmd: MAP LOAD FILE="D:/UDK4 Projects/MyProject3/Content/Maps/waagenbau.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.07.09-01.06.32:926][  0]LightingResults: New page: Lighting Build
+[2014.07.09-01.06.32:931][  0]MapCheck: New page: Map Check
+[2014.07.09-01.06.32:931][  0]LightingResults: New page: Lighting Build
+[2014.07.09-01.06.32:936][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011CAEA20
+[2014.07.09-01.06.33:971][  0]LogBlueprint:Warning: Node '/Game/Blueprints/Assets/Cigarettes.cigarettes:UserConstructionScript.K2Node_VariableGet_424' missing NodeGuid.
+[2014.07.09-01.06.34:336][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_0)
+[2014.07.09-01.06.34:336][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_1)
+[2014.07.09-01.06.34:337][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_2)
+[2014.07.09-01.06.34:338][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_3)
+[2014.07.09-01.06.34:338][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_4)
+[2014.07.09-01.06.34:339][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_5)
+[2014.07.09-01.06.34:339][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_6)
+[2014.07.09-01.06.34:340][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_7)
+[2014.07.09-01.06.34:341][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_8)
+[2014.07.09-01.06.34:342][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_9)
+[2014.07.09-01.06.34:342][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_10)
+[2014.07.09-01.06.34:343][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_11)
+[2014.07.09-01.06.34:343][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_12)
+[2014.07.09-01.06.34:344][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_13)
+[2014.07.09-01.06.34:345][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_14)
+[2014.07.09-01.06.34:345][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_15)
+[2014.07.09-01.06.34:346][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_16)
+[2014.07.09-01.06.34:347][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_18)
+[2014.07.09-01.06.34:347][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_19)
+[2014.07.09-01.06.34:348][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_20)
+[2014.07.09-01.06.34:349][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_21)
+[2014.07.09-01.06.34:349][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_22)
+[2014.07.09-01.06.34:364][  0]LogArray:Warning: Attempted to get an item from array Sounds out of bounds [0/0]!
+[2014.07.09-01.06.34:373][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.09-01.06.34:374][  0]Cmd: MAP CHECKDEP
+[2014.07.09-01.06.34:374][  0]MapCheck: New page: waagenbau - Jul 9, 2014, 5:06:34 AM
+[2014.07.09-01.06.34:441][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [66.704ms] ==========
+[2014.07.09-01.06.34:441][  0]LogFileHelpers: Loading map 'waagenbau' took 1.515
+[2014.07.09-01.06.34:636][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.07.09-01.06.34:637][  0]Cmd: MODE PLACEMENT
+[2014.07.09-01.06.34:680][  0]LogCollectionManager: Loaded 0 collections in 0.000849 seconds
+[2014.07.09-01.06.34:716][  0]LogLoad: Full Startup: 7.53 seconds (BP compile: 0.31 seconds)
+[2014.07.09-01.06.34:726][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Characters'
+[2014.07.09-01.06.34:809][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.07.09-01.06.34:915][  0]LogRenderer:Warning: Reallocating scene render targets to support 1120x856.
+[2014.07.09-01.06.35:111][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>7502EBC680575C86</RequestId><HostId>S1hyjSpLklrRxvwoKGKvi4V3ijoUsDNkmSZcAaZqjmAogYFINz0BSyIetE8TXp4J</HostId></Error>
+[2014.07.09-01.06.35:158][  1]LogAssetRegistry: Asset discovery search completed in 2.7294 seconds
+[2014.07.09-01.06.35:273][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>F0619CA04A2085AD</RequestId><HostId>yxvxBGn92BFwvuQdfN6Yr9vGVCtsmbYjheV0HSxVpjrPzvmBU0HvNuPDiOPV4ca3</HostId></Error>
+[2014.07.09-01.06.35:315][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>7502EBC680575C86</RequestId><HostId>S1hyjSpLklrRxvwoKGKvi4V3ijoUsDNkmSZcAaZqjmAogYFINz0BSyIetE8TXp4J</HostId></Error>
+[2014.07.09-01.06.35:325][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>F0619CA04A2085AD</RequestId><HostId>yxvxBGn92BFwvuQdfN6Yr9vGVCtsmbYjheV0HSxVpjrPzvmBU0HvNuPDiOPV4ca3</HostId></Error>
+[2014.07.09-01.06.35:387][ 11]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.09-01.06.35:392][ 11]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.09-01.06.35:463][ 20]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>ADE32B8FB4734C8A</RequestId><HostId>Moaiiavg1yJZc554zbfE6sMOVF42QEoZx4aRE6RoZ+T408gq+3oOqvabcMYxh+xKuo9a3xT4OHU=</HostId></Error>
+[2014.07.09-01.06.45:086][364]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.07.09-01.07.05:307][ 24]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (spaehling_4)
+[2014.07.09-01.07.06:042][ 46]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (spaehling_4)
+[2014.07.09-01.07.07:446][187]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.07.09-01.07.07:446][187]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.07.09-01.07.09:097][224]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.07.09-01.07.09:140][224]LogRenderer:Warning: Reallocating scene render targets to support 1120x896.
+[2014.07.09-01.07.23:718][618]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.09-01.07.23:718][618]PIE: New page: SIE session: waagenbau (Jul 9, 2014, 5:07:23 AM)
+[2014.07.09-01.07.23:771][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052268s)
+[2014.07.09-01.07.23:771][618]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2014.07.09-01.07.23:772][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/waagenbau.waagenbau to /Game/Maps/UEDPIE_0_waagenbau.waagenbau (0.053307s)
+[2014.07.09-01.07.23:805][618]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Action' for  InputAction Action 
+[2014.07.09-01.07.23:808][618]LogBlueprint:Warning: [compiler] Warning [0056.63] Compile of MyCharacter successful, but with 1 Warning(s) [in 5 ms]
+[2014.07.09-01.07.23:816][618]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Action' for  InputAction Action 
+[2014.07.09-01.07.23:819][618]LogBlueprint:Warning: [compiler] Warning [0056.64] Compile of MyCharacter successful, but with 1 Warning(s) [in 5 ms]
+[2014.07.09-01.07.23:838][618]LogWorld: Game class is 'MyGame_C'
+[2014.07.09-01.07.23:838][618]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/Maps/UEDPIE_0_waagenbau.waagenbau:PersistentLevel.spaehling_5"
+[2014.07.09-01.07.23:988][618]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.07.24:135][618]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.07.24:140][618]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.07.24:145][618]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.07.24:150][618]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.07.24:155][618]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.07.24:162][618]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.07.24:168][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_0)
+[2014.07.09-01.07.24:169][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_1)
+[2014.07.09-01.07.24:169][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_2)
+[2014.07.09-01.07.24:170][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_3)
+[2014.07.09-01.07.24:170][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_4)
+[2014.07.09-01.07.24:171][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_5)
+[2014.07.09-01.07.24:171][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_6)
+[2014.07.09-01.07.24:172][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_7)
+[2014.07.09-01.07.24:172][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_8)
+[2014.07.09-01.07.24:173][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_9)
+[2014.07.09-01.07.24:173][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_10)
+[2014.07.09-01.07.24:174][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_11)
+[2014.07.09-01.07.24:174][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_12)
+[2014.07.09-01.07.24:175][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_13)
+[2014.07.09-01.07.24:175][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_14)
+[2014.07.09-01.07.24:176][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_15)
+[2014.07.09-01.07.24:176][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_16)
+[2014.07.09-01.07.24:177][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_18)
+[2014.07.09-01.07.24:177][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_19)
+[2014.07.09-01.07.24:178][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_20)
+[2014.07.09-01.07.24:178][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_21)
+[2014.07.09-01.07.24:179][618]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_22)
+[2014.07.09-01.07.24:191][618]LogArray:Warning: Attempted to get an item from array Sounds out of bounds [0/0]!
+[2014.07.09-01.07.24:199][618]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.07.09-01.07.24:199][618]LogWorld: Bringing World /Game/Maps/UEDPIE_0_waagenbau.waagenbau up for play (max tick rate 0) at 2014.07.09-03.07.24
+[2014.07.09-01.07.24:203][618]LogWorld: Bringing up level for play took: 0.324874
+[2014.07.09-01.07.24:204][618]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.07.09-01.07.24:205][618]LogArray:Warning: Attempted to get an item from array Sounds out of bounds [1/0]!
+[2014.07.09-01.07.24:210][618]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_waagenbau -0.206
+[2014.07.09-01.07.24:224][618]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/Maps/UEDPIE_0_waagenbau.waagenbau:PersistentLevel.spaehling_5"
+[2014.07.09-01.07.42:229][191]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029A2FBA0
+[2014.07.09-01.07.42:251][191]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B7254E0
+[2014.07.09-01.08.59:307][812]LogEditorFactories: Performing atomic reimport of [H:/Game Assets/Humans/Generated/Spaehling/FBX/spaehling.fbx]
+[2014.07.09-01.08.59:315][812]LogFbx: Loading FBX Scene from H:/Game Assets/Humans/Generated/Spaehling/FBX/spaehling.fbx
+[2014.07.09-01.08.59:386][812]LogFbx: FBX Scene Loaded Succesfully
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [tshirt02Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [pythonMesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [mhair01Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [low-polyMesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [eyebrow012Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [eyelashes01Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [jeans01Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [shoes02Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [tshirt02Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [pythonMesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [mhair01Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [low-polyMesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [eyebrow012Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [eyelashes01Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [jeans01Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [shoes02Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [tshirt02Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [pythonMesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:392][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:392][812]LogFbx: Dumping Node [mhair01Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:393][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:393][812]LogFbx: Dumping Node [low-polyMesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:393][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:393][812]LogFbx: Dumping Node [eyebrow012Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:393][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:393][812]LogFbx: Dumping Node [eyelashes01Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:393][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:393][812]LogFbx: Dumping Node [jeans01Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:393][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:393][812]LogFbx: Dumping Node [shoes02Mesh] : Total Deformer Count 1.
+[2014.07.09-01.08.59:393][812]LogFbx: 	[Node 1]  (Type Skin).
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node tshirt02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: 	(1) BindPose - Invalid BindPose : This object is not a BindPose. ()
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: 	(2) BindPose - Invalid Argument : The pRoot pointer is NULL. ()
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: 	(3) BindPose - Incomplete BindPose [nodes parents] : The following parent and/or ancestor node(s) is/are not part of the BindPose definition. (mesh)
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: 	(4) BindPose - Incomplete BindPose [link nodes] : The following Link node(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: 	(5) BindPose - Incomplete BindPose [link nodes parents] : The following parent and/or ancestor node of the Link(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: 	(6) BindPose - Mismatched Matrices : The relative matrix of the following link(s) do not match the one stored in the BindPose definition. ()
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: 	(7) Reading or writing file. : While reading or writing a file the following notifications have been raised. ()
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: 	(8) Embed Media: : The following texture(s) will not be embedded in your scene, as the plug-in cannot locate them: ()
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node pythonMesh : The relative matrices do not match
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node mhair01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node low-polyMesh : The relative matrices do not match
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node eyebrow012Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node eyelashes01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:396][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node jeans01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:397][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node shoes02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:397][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node tshirt02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:397][812]LogFbx:Warning: 	(1) BindPose - Invalid BindPose : This object is not a BindPose. ()
+[2014.07.09-01.08.59:397][812]LogFbx:Warning: 	(2) BindPose - Invalid Argument : The pRoot pointer is NULL. ()
+[2014.07.09-01.08.59:397][812]LogFbx:Warning: 	(3) BindPose - Incomplete BindPose [nodes parents] : The following parent and/or ancestor node(s) is/are not part of the BindPose definition. (mesh)
+[2014.07.09-01.08.59:397][812]LogFbx:Warning: 	(4) BindPose - Incomplete BindPose [link nodes] : The following Link node(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:397][812]LogFbx:Warning: 	(5) BindPose - Incomplete BindPose [link nodes parents] : The following parent and/or ancestor node of the Link(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:397][812]LogFbx:Warning: 	(6) BindPose - Mismatched Matrices : The relative matrix of the following link(s) do not match the one stored in the BindPose definition. ()
+[2014.07.09-01.08.59:397][812]LogFbx:Warning: 	(7) Reading or writing file. : While reading or writing a file the following notifications have been raised. ()
+[2014.07.09-01.08.59:397][812]LogFbx:Warning: 	(8) Embed Media: : The following texture(s) will not be embedded in your scene, as the plug-in cannot locate them: ()
+[2014.07.09-01.08.59:398][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node pythonMesh : The relative matrices do not match
+[2014.07.09-01.08.59:398][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node mhair01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:398][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node low-polyMesh : The relative matrices do not match
+[2014.07.09-01.08.59:399][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node eyebrow012Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:399][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node eyelashes01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node jeans01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster2) - Node shoes02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node tshirt02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(1) BindPose - Invalid BindPose : This object is not a BindPose. ()
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(2) BindPose - Invalid Argument : The pRoot pointer is NULL. ()
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(3) BindPose - Incomplete BindPose [nodes parents] : The following parent and/or ancestor node(s) is/are not part of the BindPose definition. (mesh)
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(4) BindPose - Incomplete BindPose [link nodes] : The following Link node(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(5) BindPose - Incomplete BindPose [link nodes parents] : The following parent and/or ancestor node of the Link(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(6) BindPose - Mismatched Matrices : The relative matrix of the following link(s) do not match the one stored in the BindPose definition. ()
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(7) Reading or writing file. : While reading or writing a file the following notifications have been raised. ()
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(8) Embed Media: : The following texture(s) will not be embedded in your scene, as the plug-in cannot locate them: ()
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node pythonMesh : The relative matrices do not match
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node mhair01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node low-polyMesh : The relative matrices do not match
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node eyebrow012Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node eyelashes01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node jeans01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster3) - Node shoes02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster4) - Node tshirt02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(1) BindPose - Invalid BindPose : This object is not a BindPose. ()
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(2) BindPose - Invalid Argument : The pRoot pointer is NULL. ()
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(3) BindPose - Incomplete BindPose [nodes parents] : The following parent and/or ancestor node(s) is/are not part of the BindPose definition. (mesh)
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(4) BindPose - Incomplete BindPose [link nodes] : The following Link node(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:400][812]LogFbx:Warning: 	(5) BindPose - Incomplete BindPose [link nodes parents] : The following parent and/or ancestor node of the Link(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(6) BindPose - Mismatched Matrices : The relative matrix of the following link(s) do not match the one stored in the BindPose definition. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(7) Reading or writing file. : While reading or writing a file the following notifications have been raised. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(8) Embed Media: : The following texture(s) will not be embedded in your scene, as the plug-in cannot locate them: ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster4) - Node pythonMesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster4) - Node mhair01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster4) - Node low-polyMesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster4) - Node eyebrow012Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster4) - Node eyelashes01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster4) - Node jeans01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster4) - Node shoes02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node tshirt02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(1) BindPose - Invalid BindPose : This object is not a BindPose. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(2) BindPose - Invalid Argument : The pRoot pointer is NULL. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(3) BindPose - Incomplete BindPose [nodes parents] : The following parent and/or ancestor node(s) is/are not part of the BindPose definition. (mesh)
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(4) BindPose - Incomplete BindPose [link nodes] : The following Link node(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(5) BindPose - Incomplete BindPose [link nodes parents] : The following parent and/or ancestor node of the Link(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(6) BindPose - Mismatched Matrices : The relative matrix of the following link(s) do not match the one stored in the BindPose definition. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(7) Reading or writing file. : While reading or writing a file the following notifications have been raised. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(8) Embed Media: : The following texture(s) will not be embedded in your scene, as the plug-in cannot locate them: ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node pythonMesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node mhair01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node low-polyMesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node eyebrow012Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node eyelashes01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node jeans01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster5) - Node shoes02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster6) - Node tshirt02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(1) BindPose - Invalid BindPose : This object is not a BindPose. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(2) BindPose - Invalid Argument : The pRoot pointer is NULL. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(3) BindPose - Incomplete BindPose [nodes parents] : The following parent and/or ancestor node(s) is/are not part of the BindPose definition. (mesh)
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(4) BindPose - Incomplete BindPose [link nodes] : The following Link node(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(5) BindPose - Incomplete BindPose [link nodes parents] : The following parent and/or ancestor node of the Link(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(6) BindPose - Mismatched Matrices : The relative matrix of the following link(s) do not match the one stored in the BindPose definition. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(7) Reading or writing file. : While reading or writing a file the following notifications have been raised. ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: 	(8) Embed Media: : The following texture(s) will not be embedded in your scene, as the plug-in cannot locate them: ()
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster6) - Node pythonMesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster6) - Node mhair01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster6) - Node low-polyMesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster6) - Node eyebrow012Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster6) - Node eyelashes01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster6) - Node jeans01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:401][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster6) - Node shoes02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster7) - Node tshirt02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(1) BindPose - Invalid BindPose : This object is not a BindPose. ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(2) BindPose - Invalid Argument : The pRoot pointer is NULL. ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(3) BindPose - Incomplete BindPose [nodes parents] : The following parent and/or ancestor node(s) is/are not part of the BindPose definition. (mesh)
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(4) BindPose - Incomplete BindPose [link nodes] : The following Link node(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(5) BindPose - Incomplete BindPose [link nodes parents] : The following parent and/or ancestor node of the Link(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(6) BindPose - Mismatched Matrices : The relative matrix of the following link(s) do not match the one stored in the BindPose definition. ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(7) Reading or writing file. : While reading or writing a file the following notifications have been raised. ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(8) Embed Media: : The following texture(s) will not be embedded in your scene, as the plug-in cannot locate them: ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster7) - Node pythonMesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster7) - Node mhair01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster7) - Node low-polyMesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster7) - Node eyebrow012Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster7) - Node eyelashes01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster7) - Node jeans01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster7) - Node shoes02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster8) - Node tshirt02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(1) BindPose - Invalid BindPose : This object is not a BindPose. ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(2) BindPose - Invalid Argument : The pRoot pointer is NULL. ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(3) BindPose - Incomplete BindPose [nodes parents] : The following parent and/or ancestor node(s) is/are not part of the BindPose definition. (mesh)
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(4) BindPose - Incomplete BindPose [link nodes] : The following Link node(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(5) BindPose - Incomplete BindPose [link nodes parents] : The following parent and/or ancestor node of the Link(s) is/are not part of the BindPose definition. ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(6) BindPose - Mismatched Matrices : The relative matrix of the following link(s) do not match the one stored in the BindPose definition. ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(7) Reading or writing file. : While reading or writing a file the following notifications have been raised. ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: 	(8) Embed Media: : The following texture(s) will not be embedded in your scene, as the plug-in cannot locate them: ()
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster8) - Node pythonMesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster8) - Node mhair01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster8) - Node low-polyMesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster8) - Node eyebrow012Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:402][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster8) - Node eyelashes01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:403][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster8) - Node jeans01Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:403][812]LogFbx:Warning: Not valid bind pose for Pose (skinCluster8) - Node shoes02Mesh : The relative matrices do not match
+[2014.07.09-01.08.59:461][812]LogFbx:Warning: Bones digested - 70  Depth of hierarchy - 15
+[2014.07.09-01.09.00:360][812]LogSkeletalMesh: Chunk 0: 116 rigid vertices, 686 soft vertices, 14 active bones
+[2014.07.09-01.09.00:361][812]LogSkeletalMesh: Chunk 1: 5765 rigid vertices, 3803 soft vertices, 55 active bones
+[2014.07.09-01.09.00:361][812]LogSkeletalMesh: Chunk 2: 2953 rigid vertices, 99 soft vertices, 2 active bones
+[2014.07.09-01.09.00:361][812]LogSkeletalMesh: Chunk 3: 96 rigid vertices, 0 soft vertices, 1 active bones
+[2014.07.09-01.09.00:361][812]LogSkeletalMesh: Chunk 4: 124 rigid vertices, 0 soft vertices, 1 active bones
+[2014.07.09-01.09.00:361][812]LogSkeletalMesh: Chunk 5: 250 rigid vertices, 0 soft vertices, 1 active bones
+[2014.07.09-01.09.00:361][812]LogSkeletalMesh: Chunk 6: 382 rigid vertices, 574 soft vertices, 8 active bones
+[2014.07.09-01.09.00:361][812]LogSkeletalMesh: Chunk 7: 0 rigid vertices, 1425 soft vertices, 8 active bones
+[2014.07.09-01.09.00:395][812]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 1408 triangles
+[2014.07.09-01.09.00:395][812]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 17424 triangles
+[2014.07.09-01.09.00:395][812]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 3676 triangles
+[2014.07.09-01.09.00:395][812]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 172 triangles
+[2014.07.09-01.09.00:395][812]LogSkeletalMesh: Section 4: Material=4, Chunk=4, 192 triangles
+[2014.07.09-01.09.00:395][812]LogSkeletalMesh: Section 5: Material=5, Chunk=5, 368 triangles
+[2014.07.09-01.09.00:395][812]LogSkeletalMesh: Section 6: Material=6, Chunk=6, 1711 triangles
+[2014.07.09-01.09.00:395][812]LogSkeletalMesh: Section 7: Material=7, Chunk=7, 2560 triangles
+[2014.07.09-01.09.00:405][812]LogEditorFactories: -- imported successfully
+[2014.07.09-01.09.02:641][906]LogSavePackage: Save=410.960449ms
+[2014.07.09-01.09.02:641][906]LogSavePackage: Moving 'D:/UDK4 Projects/MyProject3/Saved/waagenbau8F65350F44C932571A0E7D8D3B785638.tmp' to 'D:/UDK4 Projects/MyProject3/Content/Maps/waagenbau.umap'
+[2014.07.09-01.09.02:687][906]LogFileHelpers: Saving map 'waagenbau' took 0.569
+[2014.07.09-01.09.02:702][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/spaehling" FILE="D:/UDK4 Projects/MyProject3/Content/Character/spaehling.uasset" SILENT=true
+[2014.07.09-01.09.03:051][906]LogSavePackage: Save=341.592926ms
+[2014.07.09-01.09.03:051][906]LogSavePackage: Moving 'D:/UDK4 Projects/MyProject3/Saved/spaehlingAE059BE34157C2CC9DAE0A8CF2A861BE.tmp' to 'D:/UDK4 Projects/MyProject3/Content/Character/spaehling.uasset'
+[2014.07.09-01.09.03:362][919]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.09-01.09.03:362][919]PIE: New page: SIE session: waagenbau (Jul 9, 2014, 5:09:03 AM)
+[2014.07.09-01.09.03:408][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045834s)
+[2014.07.09-01.09.03:408][919]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2014.07.09-01.09.03:409][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/waagenbau.waagenbau to /Game/Maps/UEDPIE_0_waagenbau.waagenbau (0.046752s)
+[2014.07.09-01.09.03:409][919]LogWorld: Game class is 'MyGame_C'
+[2014.07.09-01.09.03:409][919]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/Maps/UEDPIE_0_waagenbau.waagenbau:PersistentLevel.spaehling_5"
+[2014.07.09-01.09.03:480][919]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.09.03:485][919]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.09.03:490][919]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.09.03:495][919]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.09.03:500][919]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.09.03:505][919]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.09.03:512][919]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.09.03:519][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_0)
+[2014.07.09-01.09.03:519][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_1)
+[2014.07.09-01.09.03:520][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_2)
+[2014.07.09-01.09.03:520][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_3)
+[2014.07.09-01.09.03:520][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_4)
+[2014.07.09-01.09.03:521][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_5)
+[2014.07.09-01.09.03:521][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_6)
+[2014.07.09-01.09.03:522][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_7)
+[2014.07.09-01.09.03:522][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_8)
+[2014.07.09-01.09.03:523][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_9)
+[2014.07.09-01.09.03:523][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_10)
+[2014.07.09-01.09.03:524][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_11)
+[2014.07.09-01.09.03:524][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_12)
+[2014.07.09-01.09.03:525][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_13)
+[2014.07.09-01.09.03:525][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_14)
+[2014.07.09-01.09.03:526][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_15)
+[2014.07.09-01.09.03:526][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_16)
+[2014.07.09-01.09.03:527][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_18)
+[2014.07.09-01.09.03:527][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_19)
+[2014.07.09-01.09.03:528][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_20)
+[2014.07.09-01.09.03:528][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_21)
+[2014.07.09-01.09.03:529][919]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_22)
+[2014.07.09-01.09.03:541][919]LogArray:Warning: Attempted to get an item from array Sounds out of bounds [0/0]!
+[2014.07.09-01.09.03:548][919]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.07.09-01.09.03:548][919]LogWorld: Bringing World /Game/Maps/UEDPIE_0_waagenbau.waagenbau up for play (max tick rate 0) at 2014.07.09-03.09.03
+[2014.07.09-01.09.03:553][919]LogWorld: Bringing up level for play took: 0.108313
+[2014.07.09-01.09.03:553][919]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.07.09-01.09.03:554][919]LogArray:Warning: Attempted to get an item from array Sounds out of bounds [1/0]!
+[2014.07.09-01.09.03:559][919]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_waagenbau 1.142
+[2014.07.09-01.09.03:571][919]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/Maps/UEDPIE_0_waagenbau.waagenbau:PersistentLevel.spaehling_5"
+[2014.07.09-01.09.48:470][765]LogCharacterMovement: BotCharacter_Male_C_1 is stuck and failed to move!
+[2014.07.09-01.09.48:911][785]LogCharacterMovement: BotCharacter_Male_C_1 is stuck and failed to move!
+[2014.07.09-01.10.12:138][798]LogCharacterMovement: BotCharacter_Male_C_1 is stuck and failed to move!
+[2014.07.09-01.10.12:306][805]LogCharacterMovement: BotCharacter_Male_C_1 is stuck and failed to move!
+[2014.07.09-01.10.12:977][835]LogCharacterMovement: BotCharacter_Male_C_1 is stuck and failed to move!
+[2014.07.09-01.10.39:288][949]LogCharacterMovement: BotCharacter_Male_C_2 is stuck and failed to move!
+[2014.07.09-01.10.39:379][953]LogCharacterMovement: BotCharacter_Male_C_2 is stuck and failed to move!
+[2014.07.09-01.10.39:475][957]LogCharacterMovement: BotCharacter_Male_C_2 is stuck and failed to move!
+[2014.07.09-01.10.39:752][969]LogCharacterMovement: BotCharacter_Male_C_2 is stuck and failed to move!
+[2014.07.09-01.10.53:978][368]LogCharacterMovement: BotCharacter_Male_C_2 is stuck and failed to move!
+[2014.07.09-01.11.01:219][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BF41E40
+[2014.07.09-01.11.04:711][658]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (spaehling)
+[2014.07.09-01.11.04:924][665]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (spaehling)
+[2014.07.09-01.11.06:474][837]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.07.09-01.11.06:474][837]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.07.09-01.15.03:798][655]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.09-01.15.03:799][655]PIE: New page: SIE session: waagenbau (Jul 9, 2014, 5:15:03 AM)
+[2014.07.09-01.15.03:846][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047352s)
+[2014.07.09-01.15.03:847][655]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2014.07.09-01.15.03:847][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/waagenbau.waagenbau to /Game/Maps/UEDPIE_0_waagenbau.waagenbau (0.048265s)
+[2014.07.09-01.15.03:847][655]LogWorld: Game class is 'MyGame_C'
+[2014.07.09-01.15.03:848][655]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/Maps/UEDPIE_0_waagenbau.waagenbau:PersistentLevel.spaehling_19"
+[2014.07.09-01.15.03:938][655]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.15.03:943][655]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.15.03:948][655]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.15.03:953][655]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.15.03:958][655]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.15.03:963][655]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.15.03:970][655]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.15.03:976][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_0)
+[2014.07.09-01.15.03:977][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_1)
+[2014.07.09-01.15.03:977][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_2)
+[2014.07.09-01.15.03:978][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_3)
+[2014.07.09-01.15.03:978][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_4)
+[2014.07.09-01.15.03:979][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_5)
+[2014.07.09-01.15.03:979][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_6)
+[2014.07.09-01.15.03:980][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_7)
+[2014.07.09-01.15.03:980][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_8)
+[2014.07.09-01.15.03:981][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_9)
+[2014.07.09-01.15.03:981][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_10)
+[2014.07.09-01.15.03:982][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_11)
+[2014.07.09-01.15.03:982][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_12)
+[2014.07.09-01.15.03:983][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_13)
+[2014.07.09-01.15.03:983][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_14)
+[2014.07.09-01.15.03:984][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_15)
+[2014.07.09-01.15.03:984][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_16)
+[2014.07.09-01.15.03:985][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_18)
+[2014.07.09-01.15.03:985][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_19)
+[2014.07.09-01.15.03:986][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_20)
+[2014.07.09-01.15.03:986][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_21)
+[2014.07.09-01.15.03:987][655]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_22)
+[2014.07.09-01.15.03:999][655]LogArray:Warning: Attempted to get an item from array Sounds out of bounds [0/0]!
+[2014.07.09-01.15.04:006][655]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.07.09-01.15.04:006][655]LogWorld: Bringing World /Game/Maps/UEDPIE_0_waagenbau.waagenbau up for play (max tick rate 0) at 2014.07.09-03.15.04
+[2014.07.09-01.15.04:011][655]LogWorld: Bringing up level for play took: 0.132353
+[2014.07.09-01.15.04:011][655]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
+[2014.07.09-01.15.04:012][655]LogArray:Warning: Attempted to get an item from array Sounds out of bounds [1/0]!
+[2014.07.09-01.15.04:017][655]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_waagenbau -0.405
+[2014.07.09-01.15.04:030][655]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/Maps/UEDPIE_0_waagenbau.waagenbau:PersistentLevel.spaehling_19"
+[2014.07.09-01.15.08:068][763]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C31CFE0
+[2014.07.09-01.15.08:679][780]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (spaehling)
+[2014.07.09-01.15.10:134][916]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.07.09-01.15.16:631][108]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2014.07.09-01.15.17:801][151]LogEditorTransaction: Redo Clicking on Actors (context menu)
+[2014.07.09-01.15.48:901][110]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.07.09-01.15.48:902][110]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Char'
+[2014.07.09-01.16.00:565][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/sabrina" FILE="D:/UDK4 Projects/MyProject3/Content/Character/sabrina.uasset" SILENT=true
+[2014.07.09-01.16.01:005][513]LogSavePackage: Save=431.108185ms
+[2014.07.09-01.16.01:005][513]LogSavePackage: Moving 'D:/UDK4 Projects/MyProject3/Saved/sabrina90FDB46C4AF1AA36E801BF9D4F92DC35.tmp' to 'D:/UDK4 Projects/MyProject3/Content/Character/sabrina.uasset'
+[2014.07.09-01.16.30:621][323]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.09-01.16.30:622][323]PIE: New page: SIE session: waagenbau (Jul 9, 2014, 5:16:30 AM)
+[2014.07.09-01.16.30:670][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047851s)
+[2014.07.09-01.16.30:670][323]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2014.07.09-01.16.30:670][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/waagenbau.waagenbau to /Game/Maps/UEDPIE_0_waagenbau.waagenbau (0.048754s)
+[2014.07.09-01.16.30:671][323]LogWorld: Game class is 'MyGame_C'
+[2014.07.09-01.16.30:671][323]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/Maps/UEDPIE_0_waagenbau.waagenbau:PersistentLevel.spaehling_19"
+[2014.07.09-01.16.30:742][323]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.16.30:747][323]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.16.30:752][323]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.16.30:757][323]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.16.30:762][323]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.16.30:767][323]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.16.30:774][323]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe911d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe8fc2347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6af3c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6690e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe69b5bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6dba45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe6da3d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe51892ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51a5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe51b5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe4fb5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5370606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fde7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fddd1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fddd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fde9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fde9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76aa59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76cdc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-01.16.30:781][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_0)
+[2014.07.09-01.16.30:781][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_1)
+[2014.07.09-01.16.30:782][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_2)
+[2014.07.09-01.16.30:782][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_3)
+[2014.07.09-01.16.30:783][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_4)
+[2014.07.09-01.16.30:783][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_5)
+[2014.07.09-01.16.30:784][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_6)
+[2014.07.09-01.16.30:784][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_7)
+[2014.07.09-01.16.30:785][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_8)
+[2014.07.09-01.16.30:785][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_9)
+[2014.07.09-01.16.30:786][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_10)
+[2014.07.09-01.16.30:786][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_11)
+[2014.07.09-01.16.30:787][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_12)
+[2014.07.09-01.16.30:787][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_13)
+[2014.07.09-01.16.30:788][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_14)
+[2014.07.09-01.16.30:788][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_15)
+[2014.07.09-01.16.30:789][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_16)
+[2014.07.09-01.16.30:789][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_18)
+[2014.07.09-01.16.30:790][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_19)
+[2014.07.09-01.16.30:790][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_20)
+[2014.07.09-01.16.30:791][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_21)
+[2014.07.09-01.16.30:791][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_22)
+[2014.07.09-01.16.30:804][323]LogArray:Warning: Attempted to get an item from array Sounds out of bounds [0/0]!
+[2014.07.09-01.16.30:811][323]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.07.09-01.16.30:811][323]LogWorld: Bringing World /Game/Maps/UEDPIE_0_waagenbau.waagenbau up for play (max tick rate 0) at 2014.07.09-03.16.30
+[2014.07.09-01.16.30:816][323]LogWorld: Bringing up level for play took: 0.109190
+[2014.07.09-01.16.30:816][323]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
+[2014.07.09-01.16.30:818][323]LogArray:Warning: Attempted to get an item from array Sounds out of bounds [1/0]!
+[2014.07.09-01.16.30:823][323]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_waagenbau 0.4
+[2014.07.09-01.16.30:835][323]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/Maps/UEDPIE_0_waagenbau.waagenbau:PersistentLevel.spaehling_19"
+[2014.07.09-01.16.36:839][513]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A6C79C0
+[2014.07.09-01.16.48:906][815]LogSavePackage: Save=333.139313ms
+[2014.07.09-01.16.48:906][815]LogSavePackage: Moving 'D:/UDK4 Projects/MyProject3/Saved/waagenbau155F00454A2CAC308E7FE6B91CFC3D40.tmp' to 'D:/UDK4 Projects/MyProject3/Content/Maps/waagenbau.umap'
+[2014.07.09-01.18.41:334][737]Cmd: QUIT_EDITOR
+[2014.07.09-01.18.41:627][737]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.07.09-01.18.41:628][737]LogExit: Preparing to exit.
+[2014.07.09-01.18.42:664][737]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.07.09-01.18.42:664][737]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.07.09-01.18.42:664][737]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.07.09-01.18.42:664][737]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.07.09-01.18.42:664][737]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.07.09-01.18.42:664][737]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.07.09-01.18.42:664][737]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.07.09-01.18.42:673][737]LogExit: Editor shut down
+[2014.07.09-01.18.42:673][737]LogExit: Transaction tracking system shut down
+[2014.07.09-01.18.42:676][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001846B4C0
+[2014.07.09-01.18.42:677][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000243A6FC0
+[2014.07.09-01.18.42:677][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A5B7420
+[2014.07.09-01.18.42:704][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E9E9940
+[2014.07.09-01.18.42:704][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000170056C0
+[2014.07.09-01.18.42:704][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017005940
+[2014.07.09-01.18.42:704][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A5B7600
+[2014.07.09-01.18.42:704][737]LogExit: Object subsystem successfully closed.
+[2014.07.09-01.18.42:729][737]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
+[2014.07.09-01.18.42:729][737]LogModuleManager: Shutting down and abandoning module EditorWidgets (163)
+[2014.07.09-01.18.42:729][737]LogModuleManager: Shutting down and abandoning module CollectionManager (162)
+[2014.07.09-01.18.42:729][737]LogModuleManager: Shutting down and abandoning module CrashTracker (161)
+[2014.07.09-01.18.42:729][737]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.07.09-01.18.42:729][737]LogModuleManager: Shutting down and abandoning module NewsFeed (159)
+[2014.07.09-01.18.42:729][737]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
+[2014.07.09-01.18.42:729][737]LogModuleManager: Shutting down and abandoning module StatsViewer (157)
+[2014.07.09-01.18.42:729][737]LogModuleManager: Shutting down and abandoning module FoliageEdit (156)
+[2014.07.09-01.18.42:729][737]LogModuleManager: Shutting down and abandoning module LandscapeEditor (155)
+[2014.07.09-01.18.42:734][737]LogModuleManager: Shutting down and abandoning module MeshPaint (154)
+[2014.07.09-01.18.42:734][737]LogModuleManager: Shutting down and abandoning module ActorPickerMode (153)
+[2014.07.09-01.18.42:734][737]LogModuleManager: Shutting down and abandoning module GeometryMode (152)
+[2014.07.09-01.18.42:734][737]LogModuleManager: Shutting down and abandoning module TextureAlignMode (151)
+[2014.07.09-01.18.42:734][737]LogModuleManager: Shutting down and abandoning module BspMode (150)
+[2014.07.09-01.18.42:734][737]LogModuleManager: Shutting down and abandoning module PlacementMode (149)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module AutomationWorker (148)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module ViewportSnapping (147)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (146)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module UndoHistory (145)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (144)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module UserFeedback (143)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module XmlParser (142)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module Blutility (141)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (138)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (137)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (136)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module InputBindingEditor (135)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (134)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module SettingsEditor (133)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module SessionLauncher (132)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module SessionFrontend (131)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module ProfilerClient (130)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (129)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module DeviceManager (128)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module AutomationController (127)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module AutomationWindow (126)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module Layers (125)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (124)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module DetailCustomizations (123)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module PackagesDialog (122)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (121)
+[2014.07.09-01.18.42:735][737]LogModuleManager: Shutting down and abandoning module AssetRegistry (120)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module Persona (119)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module GraphEditor (118)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module ContentBrowser (117)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module ClassViewer (116)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module Toolbox (115)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module ModuleUI (114)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module Sequencer (113)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module MovieSceneTools (112)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module OutputLog (111)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module GammaUI (110)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module Documentation (109)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (108)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module AnalyticsET (107)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module Analytics (106)
+[2014.07.09-01.18.42:839][737]LogModuleManager: Shutting down and abandoning module ProfilerService (105)
+[2014.07.09-01.18.42:885][737]LogModuleManager: Shutting down and abandoning module TaskGraph (104)
+[2014.07.09-01.18.42:885][737]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (103)
+[2014.07.09-01.18.42:885][737]LogModuleManager: Shutting down and abandoning module Matinee (102)
+[2014.07.09-01.18.42:885][737]LogModuleManager: Shutting down and abandoning module Kismet (101)
+[2014.07.09-01.18.42:885][737]LogModuleManager: Shutting down and abandoning module SlateReflector (100)
+[2014.07.09-01.18.42:885][737]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module SourceControl (97)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module ImageWrapper (96)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (95)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module PropertyEditor (94)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module AssetTools (93)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.07.09-01.18.42:886][737]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.07.09-01.18.42:887][737]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.07.09-01.18.42:887][737]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.07.09-01.18.42:887][737]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.07.09-01.18.42:887][737]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.07.09-01.18.42:887][737]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.07.09-01.18.42:887][737]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.07.09-01.18.42:887][737]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.07.09-01.18.42:887][737]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.07.09-01.18.42:887][737]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.07.09-01.18.42:887][737]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.07.09-01.18.42:887][737]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.07.09-01.18.42:887][737]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.07.09-01.18.42:923][737]LogDerivedDataCache: Shutdown
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.07.09-01.18.42:923][737]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.07.09-01.18.42:924][737]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.07.09-01.18.42:924][737]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.07.09-01.18.42:924][737]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.07.09-01.18.42:924][737]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.07.09-01.18.42:924][737]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.07.09-01.18.42:924][737]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.07.09-01.18.42:924][737]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.07.09-01.18.42:924][737]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.07.09-01.18.42:924][737]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.07.09-01.18.42:924][737]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.07.09-01.18.42:932][737]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.07.09-01.18.42:933][737]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.07.09-01.18.42:933][737]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.07.09-01.18.42:933][737]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.07.09-01.18.42:933][737]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.07.09-01.18.43:033][737]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.07.09-01.18.43:034][737]LogExit: Exiting.
+[2014.07.09-01.18.43:039][737]Log file closed, 07/09/14 03:18:43

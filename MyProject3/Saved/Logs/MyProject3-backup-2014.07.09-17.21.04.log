@@ -1,0 +1,163 @@
+Log file open, 07/09/14 17:10:37
+LogInit:Display: Running engine without a game
+LogInit:Display: Loading recent project file: D:/UDK4 Projects/MyProject3/MyProject3.uproject
+LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line: 
+LogInit: Base directory: E:/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.07.09-15.10.37:742][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.07.09-15.10.37:795][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.07.09-15.10.37:927][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.07.09-15.10.38:137][  0]LogInit: Object subsystem initialized
+[2014.07.09-15.10.38:233][  0]LogInit: Selected Device Profile: [Windows]
+[2014.07.09-15.10.38:237][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.07.09-15.10.38:289][  0]LogInit: Computer: SPAEHLING-PC
+[2014.07.09-15.10.38:289][  0]LogInit: User: Spaehling
+[2014.07.09-15.10.38:290][  0]LogInit: CPU Page size=4096, Cores=6
+[2014.07.09-15.10.38:300][  0]LogInit: High frequency timer resolution =3.126943 MHz
+[2014.07.09-15.10.38:300][  0]LogMemory: Memory total: Physical=64.0GB (64GB approx) Virtual=8192.0GB
+[2014.07.09-15.10.38:300][  0]LogMemory: Platform Memory Stats for Windows
+[2014.07.09-15.10.38:300][  0]LogMemory: Process Physical Memory: 59.98 MB used, 59.98 MB peak
+[2014.07.09-15.10.38:300][  0]LogMemory: Process Virtual Memory: 36.55 MB used, 36.73 MB peak
+[2014.07.09-15.10.38:300][  0]LogMemory: Physical Memory: 5446.81 MB used, 65486.15 MB total
+[2014.07.09-15.10.38:300][  0]LogMemory: Virtual Memory: 244.71 MB used, 8388608.00 MB total
+[2014.07.09-15.10.38:376][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 690 (Feature Level 11_0)
+[2014.07.09-15.10.38:376][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.07.09-15.10.38:376][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.07.09-15.10.38:381][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.07.09-15.10.38:391][  0]LogD3D11RHI: Async texture creation enabled
+[2014.07.09-15.10.39:144][  0]LogTextLocalizationManager:Warning: The selected culture 'de_DE' is not available; falling back to 'en'
+[2014.07.09-15.10.39:250][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.07.09-15.10.40:753][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.09-15.10.41:190][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.09-15.10.41:258][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.07.09-15.10.41:443][  0]LogDerivedDataCache: Loaded boot cache 0.18s 39MB C:/Users/Spaehling/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.09-15.10.41:443][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Spaehling/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.07.09-15.10.41:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UDK4 Projects/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.07.09-15.10.41:444][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.07.09-15.10.41:477][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.07.09-15.10.41:489][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Spaehling/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.07.09-15.10.45:588][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.07.09-15.10.45:588][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.07.09-15.10.47:422][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.07.09-15.10.53:435][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.07.09-15.10.53:435][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.07.09-15.10.53:584][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.07.09-15.10.53:584][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.07.09-15.10.57:299][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.07.09-15.10.57:462][  0]SourceControl: Info Source control is disabled
+[2014.07.09-15.10.57:462][  0]SourceControl: Info Source control is disabled
+[2014.07.09-15.10.57:466][  0]SourceControl: Info Source control is disabled
+[2014.07.09-15.10.58:263][  0]BlueprintLog: New page: Editor Load
+[2014.07.09-15.10.58:654][  0]LogObj: 19203 objects as part of root set at end of initial load.
+[2014.07.09-15.10.58:654][  0]LogUObjectAllocator: 3820568 out of 0 bytes used by permanent object pool.
+[2014.07.09-15.10.59:300][  0]LogEngine: Initializing Engine...
+[2014.07.09-15.10.59:677][  0]LogInit: XAudio2 using 'Lautsprecher (Corsair Vengeance 2000 Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
+[2014.07.09-15.10.59:705][  0]LogInit: FAudioDevice initialized.
+[2014.07.09-15.10.59:986][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Spaehling/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.09-15.10.59:992][  0]LogInit: Texture streaming: Enabled
+[2014.07.09-15.11.00:093][  0]LogInit: Transaction tracking system initialized
+[2014.07.09-15.11.00:562][  0]LogAssetRegistry: FAssetRegistry took 0.0181 seconds to start up
+[2014.07.09-15.11.01:453][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.09-15.11.01:457][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.09-15.11.01:618][  0]LogConsoleResponse:Display: 
+[2014.07.09-15.11.03:650][  0]SourceControl: Info Source control is disabled
+[2014.07.09-15.11.03:660][  0]Cmd: MAP LOAD FILE="D:/UDK4 Projects/MyProject3/Content/Maps/waagenbau.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.07.09-15.11.03:686][  0]LightingResults: New page: Lighting Build
+[2014.07.09-15.11.03:717][  0]MapCheck: New page: Map Check
+[2014.07.09-15.11.03:717][  0]LightingResults: New page: Lighting Build
+[2014.07.09-15.11.03:796][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011E5AA20
+[2014.07.09-15.11.13:019][  0]LogBlueprint:Warning: Node '/Game/Blueprints/Assets/Cigarettes.cigarettes:UserConstructionScript.K2Node_VariableGet_424' missing NodeGuid.
+[2014.07.09-15.11.13:981][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_0)
+[2014.07.09-15.11.13:982][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_1)
+[2014.07.09-15.11.13:983][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_2)
+[2014.07.09-15.11.13:984][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_3)
+[2014.07.09-15.11.13:984][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_4)
+[2014.07.09-15.11.13:985][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_5)
+[2014.07.09-15.11.13:985][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_6)
+[2014.07.09-15.11.13:986][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_7)
+[2014.07.09-15.11.13:987][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_8)
+[2014.07.09-15.11.13:987][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_9)
+[2014.07.09-15.11.13:988][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_10)
+[2014.07.09-15.11.13:989][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_11)
+[2014.07.09-15.11.13:990][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_12)
+[2014.07.09-15.11.13:990][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_13)
+[2014.07.09-15.11.13:991][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_14)
+[2014.07.09-15.11.13:992][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_15)
+[2014.07.09-15.11.13:992][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_16)
+[2014.07.09-15.11.13:993][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_18)
+[2014.07.09-15.11.13:994][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_19)
+[2014.07.09-15.11.13:994][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_20)
+[2014.07.09-15.11.13:995][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_21)
+[2014.07.09-15.11.13:996][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_22)
+[2014.07.09-15.11.14:025][  0]LogArray:Warning: Attempted to get an item from array Sounds out of bounds [0/0]!
+[2014.07.09-15.11.14:047][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.09-15.11.14:063][  0]Cmd: MAP CHECKDEP
+[2014.07.09-15.11.14:063][  0]MapCheck: New page: waagenbau - Jul 9, 2014, 7:11:14 PM
+[2014.07.09-15.11.14:125][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [62.124ms] ==========
+[2014.07.09-15.11.14:125][  0]LogFileHelpers: Loading map 'waagenbau' took 10.469
+[2014.07.09-15.11.15:096][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.07.09-15.11.15:101][  0]Cmd: MODE PLACEMENT
+[2014.07.09-15.11.16:053][  0]LogCrashTracker: 
+
+
+[2014.07.09-15.11.17:193][  0]LogCrashTracker: 
+
+
+[2014.07.09-15.11.17:193][  0]LogWindows: === Critical error: ===
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000008
+
+[2014.07.09-15.11.17:194][  0]LogWindows: Fatal error!
+
+Address = 0xe45eacdc (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0xe461a85e (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0xe461a3a2 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0xe45e7f0d (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Renderer.dll]
+Address = 0xe89c1b8a (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xde5d2433 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xde717f5a (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xe6edbba2 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xde6d52be (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xde6c19a6 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xde6d5859 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xde841bca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xde846a22 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xe510acdb (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xe50c9c74 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xe50cd568 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xe7d0724a (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe7d39863 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe7d35bec (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe7d372f7 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe7d36baa (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe7d372f7 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe7d36995 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe7d35946 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe7d3700e (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe73e92b2 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe73e90d6 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe5109872 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xde64635b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xde617695 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xe0dfa166 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-AssetTools.dll]
+Address = 0xe73e5f4e (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe73e5b0e (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe73e4b4a (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe73e9abf (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe009d1f2 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-MainFrame.dll]
+Address = 0xe0081874 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-MainFrame.dll]
+Address = 0xe701af7c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+GuardedMain() 0x3ffdd12d + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:124] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3ffdd25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3ffe9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3ffe9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x779c59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x77afc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x77afc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.09-15.11.17:194][  0]LogExit: Executing StaticShutdownAfterError
+[2014.07.09-15.11.17:375][  0]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.07.09-15.11.17:375][  0]Log file closed, 07/09/14 17:11:17
