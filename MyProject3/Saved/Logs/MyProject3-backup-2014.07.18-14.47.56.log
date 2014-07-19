@@ -1,0 +1,500 @@
+Log file open, 07/18/14 14:35:18
+LogInit:Display: Running engine for game: MyProject3
+LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line:  
+LogInit: Base directory: E:/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.07.18-12.35.18:698][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.07.18-12.35.18:742][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.07.18-12.35.18:748][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.07.18-12.35.18:754][  0]LogInit: Object subsystem initialized
+[2014.07.18-12.35.18:756][  0]LogInit: Selected Device Profile: [Windows]
+[2014.07.18-12.35.18:756][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.07.18-12.35.18:759][  0]LogInit: Computer: SPAEHLING-PC
+[2014.07.18-12.35.18:759][  0]LogInit: User: Spaehling
+[2014.07.18-12.35.18:759][  0]LogInit: CPU Page size=4096, Cores=6
+[2014.07.18-12.35.18:759][  0]LogInit: High frequency timer resolution =3.126962 MHz
+[2014.07.18-12.35.18:759][  0]LogMemory: Memory total: Physical=64.0GB (64GB approx) Virtual=8192.0GB
+[2014.07.18-12.35.18:760][  0]LogMemory: Platform Memory Stats for Windows
+[2014.07.18-12.35.18:760][  0]LogMemory: Process Physical Memory: 61.60 MB used, 61.60 MB peak
+[2014.07.18-12.35.18:760][  0]LogMemory: Process Virtual Memory: 37.72 MB used, 37.87 MB peak
+[2014.07.18-12.35.18:760][  0]LogMemory: Physical Memory: 5082.97 MB used, 65486.15 MB total
+[2014.07.18-12.35.18:760][  0]LogMemory: Virtual Memory: 245.71 MB used, 8388608.00 MB total
+[2014.07.18-12.35.18:804][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 690 (Feature Level 11_0)
+[2014.07.18-12.35.18:804][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.07.18-12.35.18:824][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 690 (Feature Level 11_0)
+[2014.07.18-12.35.18:824][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.07.18-12.35.18:824][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.07.18-12.35.18:829][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.07.18-12.35.18:838][  0]LogD3D11RHI: Async texture creation enabled
+[2014.07.18-12.35.18:887][  0]LogTextLocalizationManager:Warning: The selected culture 'de_DE' is not available; falling back to 'en'
+[2014.07.18-12.35.18:934][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.07.18-12.35.19:679][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.18-12.35.19:750][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.18-12.35.19:776][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.07.18-12.35.19:810][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Spaehling/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.18-12.35.19:810][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Spaehling/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.07.18-12.35.19:810][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UDK4 Projects/Waagenbau/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.07.18-12.35.19:810][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.07.18-12.35.19:820][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.07.18-12.35.19:832][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Spaehling/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.07.18-12.35.19:970][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.07.18-12.35.19:970][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.07.18-12.35.20:247][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.07.18-12.35.20:540][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.07.18-12.35.20:540][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.07.18-12.35.20:544][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.07.18-12.35.20:544][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.07.18-12.35.20:775][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.07.18-12.35.20:867][  0]SourceControl: Info Source control is disabled
+[2014.07.18-12.35.20:867][  0]SourceControl: Info Source control is disabled
+[2014.07.18-12.35.20:870][  0]SourceControl: Info Source control is disabled
+[2014.07.18-12.35.20:939][  0]BlueprintLog: New page: Editor Load
+[2014.07.18-12.35.20:970][  0]LogObj: 19203 objects as part of root set at end of initial load.
+[2014.07.18-12.35.20:970][  0]LogUObjectAllocator: 3820576 out of 0 bytes used by permanent object pool.
+[2014.07.18-12.35.21:291][  0]LogEngine: Initializing Engine...
+[2014.07.18-12.35.21:389][  0]LogInit: XAudio2 using 'Lautsprecher (Corsair Vengeance 2000 Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
+[2014.07.18-12.35.21:398][  0]LogInit: FAudioDevice initialized.
+[2014.07.18-12.35.21:418][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Spaehling/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.18-12.35.21:422][  0]LogInit: Texture streaming: Enabled
+[2014.07.18-12.35.21:444][  0]LogInit: Transaction tracking system initialized
+[2014.07.18-12.35.21:518][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2014.07.18-12.35.21:628][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.18-12.35.21:631][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.18-12.35.21:667][  0]LogConsoleResponse:Display: 
+[2014.07.18-12.35.21:829][  0]SourceControl: Info Source control is disabled
+[2014.07.18-12.35.21:829][  0]Cmd: MAP LOAD FILE="D:/UDK4 Projects/Waagenbau/Content/Maps/waagenbau.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.07.18-12.35.21:829][  0]LightingResults: New page: Lighting Build
+[2014.07.18-12.35.21:834][  0]MapCheck: New page: Map Check
+[2014.07.18-12.35.21:834][  0]LightingResults: New page: Lighting Build
+[2014.07.18-12.35.21:839][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000139A28E0
+[2014.07.18-12.35.23:004][  0]LogBlueprint:Warning: Node '/Game/Blueprints/Assets/Cigarettes.cigarettes:UserConstructionScript.K2Node_VariableGet_424' missing NodeGuid.
+[2014.07.18-12.35.23:457][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_19)
+[2014.07.18-12.35.23:458][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_24)
+[2014.07.18-12.35.23:458][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_25)
+[2014.07.18-12.35.23:459][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_26)
+[2014.07.18-12.35.23:460][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_27)
+[2014.07.18-12.35.23:460][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_28)
+[2014.07.18-12.35.23:461][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_29)
+[2014.07.18-12.35.23:462][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_30)
+[2014.07.18-12.35.23:462][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_31)
+[2014.07.18-12.35.23:463][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_32)
+[2014.07.18-12.35.23:464][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_33)
+[2014.07.18-12.35.23:464][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_34)
+[2014.07.18-12.35.23:465][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_35)
+[2014.07.18-12.35.23:465][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_36)
+[2014.07.18-12.35.23:466][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_37)
+[2014.07.18-12.35.23:467][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_38)
+[2014.07.18-12.35.23:467][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_39)
+[2014.07.18-12.35.23:468][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_40)
+[2014.07.18-12.35.23:469][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_41)
+[2014.07.18-12.35.23:469][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_42)
+[2014.07.18-12.35.23:470][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_43)
+[2014.07.18-12.35.23:471][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_44)
+[2014.07.18-12.35.23:471][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_45)
+[2014.07.18-12.35.23:472][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (WallSconce_24)
+[2014.07.18-12.35.23:530][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.18-12.35.23:531][  0]Cmd: MAP CHECKDEP
+[2014.07.18-12.35.23:531][  0]MapCheck: New page: waagenbau - Jul 18, 2014, 4:35:23 PM
+[2014.07.18-12.35.23:603][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [71.217ms] ==========
+[2014.07.18-12.35.23:603][  0]LogFileHelpers: Loading map 'waagenbau' took 1.774
+[2014.07.18-12.35.23:791][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.07.18-12.35.23:792][  0]Cmd: MODE PLACEMENT
+[2014.07.18-12.35.23:853][  0]LogLoad: Full Startup: 5.74 seconds (BP compile: 0.33 seconds)
+[2014.07.18-12.35.23:972][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.07.18-12.35.24:057][  0]LogRenderer:Warning: Reallocating scene render targets to support 1160x856.
+[2014.07.18-12.35.24:323][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>2B79132FF11CCBB4</RequestId><HostId>ea/pmE2Y02SVdCjYqRqu54zGsshYhQ2At83+Pj/lEziyn0F3r2XrRfv/jQiwZ8u8</HostId></Error>
+[2014.07.18-12.35.24:376][  1]LogAssetRegistry: Asset discovery search completed in 2.8683 seconds
+[2014.07.18-12.35.24:436][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>31D40643ED5D410F</RequestId><HostId>BmDFdFd3DXG4az76Z5nNzTbsexsInC6TemMTmO7F6XkxP2TzdCNcRtYO4blluQLf</HostId></Error>
+[2014.07.18-12.35.24:501][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>2B79132FF11CCBB4</RequestId><HostId>ea/pmE2Y02SVdCjYqRqu54zGsshYhQ2At83+Pj/lEziyn0F3r2XrRfv/jQiwZ8u8</HostId></Error>
+[2014.07.18-12.35.24:579][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>31D40643ED5D410F</RequestId><HostId>BmDFdFd3DXG4az76Z5nNzTbsexsInC6TemMTmO7F6XkxP2TzdCNcRtYO4blluQLf</HostId></Error>
+[2014.07.18-12.35.24:643][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>41B752563B41D87B</RequestId><HostId>cO58t2Rhh1kgRN7I9/rjO3CZpz2S+4XF6ll28sIf5+sBusGIo3TsRwjuAjdp8d0c</HostId></Error>
+[2014.07.18-12.35.24:752][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.18-12.35.24:764][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.18-12.37.03:859][480]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.18-12.37.03:859][480]PIE: New page: SIE session: waagenbau (Jul 18, 2014, 4:37:03 PM)
+[2014.07.18-12.37.03:922][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062656s)
+[2014.07.18-12.37.03:922][480]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2014.07.18-12.37.03:923][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/waagenbau.waagenbau to /Game/Maps/UEDPIE_0_waagenbau.waagenbau (0.063696s)
+[2014.07.18-12.37.03:997][480]LogWorld: Game class is 'MyGame_C'
+[2014.07.18-12.37.04:138][480]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe965d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe4c63c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4800e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4b25bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f2a45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f13d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe7fb92ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fd5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fe5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7de5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe81a0606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3f7a7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f79d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f79d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f7a9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f7a9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x778459ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.18-12.37.04:278][480]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe965d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe4c63c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4800e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4b25bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f2a45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f13d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe7fb92ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fd5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fe5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7de5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe81a0606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3f7a7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f79d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f79d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f7a9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f7a9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x778459ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.18-12.37.04:284][480]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe965d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe4c63c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4800e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4b25bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f2a45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f13d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe7fb92ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fd5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fe5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7de5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe81a0606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3f7a7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f79d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f79d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f7a9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f7a9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x778459ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.18-12.37.04:289][480]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe965d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe4c63c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4800e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4b25bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f2a45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f13d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe7fb92ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fd5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fe5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7de5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe81a0606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3f7a7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f79d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f79d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f7a9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f7a9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x778459ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.18-12.37.04:295][480]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe965d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe4c63c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4800e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4b25bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f2a45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f13d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe7fb92ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fd5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fe5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7de5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe81a0606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3f7a7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f79d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f79d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f7a9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f7a9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x778459ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.18-12.37.04:300][480]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe965d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe4c63c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4800e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4b25bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f2a45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f13d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe7fb92ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fd5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fe5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7de5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe81a0606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3f7a7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f79d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f79d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f7a9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f7a9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x778459ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.18-12.37.04:306][480]LogOutputDevice: === Handled error: ===
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Engine\Private\SceneComponent.cpp] [Line: 670]
+Template Mismatch during attachment. Attaching instanced component to template component. Parent 'SceneComp' Self 'Sprite'
+Stack: Address = 0xe965d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502101 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe9502347 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe4c63c04 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4800e36 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4b25bd9 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f2a45b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe4f13d2c (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe7fb92ca (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fd5524 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7fe5a4b (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe7de5265 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe81a0606 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3f7a7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f79d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f79d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f7a9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f7a9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x778459ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.18-12.37.04:351][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_19)
+[2014.07.18-12.37.04:352][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_24)
+[2014.07.18-12.37.04:352][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_25)
+[2014.07.18-12.37.04:353][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_26)
+[2014.07.18-12.37.04:353][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_27)
+[2014.07.18-12.37.04:354][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_28)
+[2014.07.18-12.37.04:354][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_29)
+[2014.07.18-12.37.04:355][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_30)
+[2014.07.18-12.37.04:355][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_31)
+[2014.07.18-12.37.04:356][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_32)
+[2014.07.18-12.37.04:356][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_33)
+[2014.07.18-12.37.04:357][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_34)
+[2014.07.18-12.37.04:357][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_35)
+[2014.07.18-12.37.04:358][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_36)
+[2014.07.18-12.37.04:358][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_37)
+[2014.07.18-12.37.04:359][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_38)
+[2014.07.18-12.37.04:359][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_39)
+[2014.07.18-12.37.04:360][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_40)
+[2014.07.18-12.37.04:360][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_41)
+[2014.07.18-12.37.04:361][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_42)
+[2014.07.18-12.37.04:361][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_43)
+[2014.07.18-12.37.04:362][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_44)
+[2014.07.18-12.37.04:362][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_45)
+[2014.07.18-12.37.04:363][480]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (WallSconce_24)
+[2014.07.18-12.37.04:412][480]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.07.18-12.37.04:412][480]LogWorld: Bringing World /Game/Maps/UEDPIE_0_waagenbau.waagenbau up for play (max tick rate 0) at 2014.07.18-14.37.04
+[2014.07.18-12.37.04:421][480]LogWorld: Bringing up level for play took: 0.385684
+[2014.07.18-12.37.04:422][480]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.07.18-12.37.04:430][480]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_waagenbau 1.097
+[2014.07.18-12.37.04:604][481]LogRenderer:Warning: Reallocating scene render targets to support 1160x864.
+[2014.07.18-12.37.11:821][844]LogCharacterMovement: BotCharacter_Male_C_348 is stuck and failed to move!
+[2014.07.18-12.37.12:150][861]LogCharacterMovement: BotCharacter_Male_C_348 is stuck and failed to move!
+[2014.07.18-12.37.17:487][138]LogCharacterMovement: BotCharacter_Male_C_339 is stuck and failed to move!
+[2014.07.18-12.37.17:506][139]LogCharacterMovement: BotCharacter_Male_C_329 is stuck and failed to move!
+[2014.07.18-12.37.19:456][240]LogCharacterMovement: BotCharacter_Male_C_343 is stuck and failed to move!
+[2014.07.18-12.37.53:421][  3]LogCharacterMovement: BotCharacter_Male_C_317 is stuck and failed to move!
+[2014.07.18-12.38.04:602][579]LogCharacterMovement: BotCharacter_Male_C_317 is stuck and failed to move!
+[2014.07.18-12.38.04:852][592]LogCharacterMovement: BotCharacter_Male_C_317 is stuck and failed to move!
+[2014.07.18-12.38.29:471][865]LogCharacterMovement: BotCharacter_Male_C_339 is stuck and failed to move!
+[2014.07.18-12.38.29:700][877]LogCharacterMovement: BotCharacter_Male_C_339 is stuck and failed to move!
+[2014.07.18-12.38.31:845][933]LogCollectionManager: Loaded 0 collections in 0.000815 seconds
+[2014.07.18-12.38.31:963][933]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2014.07.18-12.38.32:010][933]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.07.18-12.38.32:043][933]LogRenderer:Warning: Reallocating scene render targets to support 1160x896.
+[2014.07.18-12.38.37:280][ 46]LogCharacterMovement: BotCharacter_Male_C_348 is stuck and failed to move!
+[2014.07.18-12.39.02:157][687]LogCharacterMovement: BotCharacter_Male_C_332 is stuck and failed to move!
+[2014.07.18-12.39.02:297][691]LogCharacterMovement: BotCharacter_Male_C_332 is stuck and failed to move!
+[2014.07.18-12.39.10:050][898]LogRenderer:Warning: Reallocating scene render targets to support 1920x1000.
+[2014.07.18-12.39.16:819][991]LogCharacterMovement: BotCharacter_Male_C_343 is stuck and failed to move!
+[2014.07.18-12.39.30:897][419]LogCharacterMovement: BotCharacter_Male_C_339 is stuck and failed to move!
+[2014.07.18-12.39.31:026][423]LogCharacterMovement: BotCharacter_Male_C_339 is stuck and failed to move!
+[2014.07.18-12.39.44:910][845]LogCharacterMovement: BotCharacter_Male_C_329 is stuck and failed to move!
+[2014.07.18-12.39.45:042][849]LogCharacterMovement: BotCharacter_Male_C_329 is stuck and failed to move!
+[2014.07.18-12.39.55:440][166]LogCharacterMovement: BotCharacter_Male_C_332 is stuck and failed to move!
+[2014.07.18-12.39.55:571][170]LogCharacterMovement: BotCharacter_Male_C_332 is stuck and failed to move!
+[2014.07.18-12.40.10:818][470]LogCharacterMovement: BotCharacter_Male_C_348 is stuck and failed to move!
+[2014.07.18-12.40.10:956][474]LogCharacterMovement: BotCharacter_Male_C_348 is stuck and failed to move!
+[2014.07.18-12.40.16:455][629]LogCharacterMovement: BotCharacter_Male_C_339 is stuck and failed to move!
+[2014.07.18-12.40.16:591][633]LogCharacterMovement: BotCharacter_Male_C_339 is stuck and failed to move!
+[2014.07.18-12.40.33:972][ 53]LogCharacterMovement: BotCharacter_Male_C_332 is stuck and failed to move!
+[2014.07.18-12.42.13:072][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A36A2A0
+[2014.07.18-12.42.13:743][583]MapCheck: New page: Map Check
+[2014.07.18-12.42.13:772][583]Cmd: MAP REBUILD ALLVISIBLE
+[2014.07.18-12.42.13:772][583]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.07.18-12.42.13:810][583]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.07.18-12.42.13:930][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_19)
+[2014.07.18-12.42.13:931][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_24)
+[2014.07.18-12.42.13:932][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_25)
+[2014.07.18-12.42.13:933][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_26)
+[2014.07.18-12.42.13:934][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_27)
+[2014.07.18-12.42.13:935][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_28)
+[2014.07.18-12.42.13:936][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_29)
+[2014.07.18-12.42.13:937][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_30)
+[2014.07.18-12.42.13:938][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_31)
+[2014.07.18-12.42.13:939][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_32)
+[2014.07.18-12.42.13:940][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_33)
+[2014.07.18-12.42.13:941][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_34)
+[2014.07.18-12.42.13:942][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_35)
+[2014.07.18-12.42.13:943][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_36)
+[2014.07.18-12.42.13:944][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_37)
+[2014.07.18-12.42.13:945][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_38)
+[2014.07.18-12.42.13:947][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_39)
+[2014.07.18-12.42.13:948][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_40)
+[2014.07.18-12.42.13:949][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_41)
+[2014.07.18-12.42.13:950][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_42)
+[2014.07.18-12.42.13:951][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_43)
+[2014.07.18-12.42.13:952][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_44)
+[2014.07.18-12.42.13:953][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_45)
+[2014.07.18-12.42.13:954][583]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (WallSconce_24)
+[2014.07.18-12.42.14:037][583]LightingResults: New page: Lighting Build - Jul 18, 2014, 4:42:14 PM
+[2014.07.18-12.42.19:402][583]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.07.18-12.42.19:402][583]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.07.18-12.42.19:402][583]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.07.18-12.42.19:402][583]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.07.18-12.42.19:402][583]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.07.18-12.42.19:491][583]LogEditorBuildUtils: Build time 0:00:05
+[2014.07.18-12.42.37:042][ 60]Job is a success!
+[2014.07.18-12.42.37:660][ 61]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.07.18-12.42.38:177][ 61]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.07.18-12.42.38:253][ 61]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.07.18-12.42.38:345][ 61]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.07.18-12.42.38:861][ 61]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.07.18-12.42.38:891][ 61]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.07.18-12.42.38:936][ 61]Lightmass on SPAEHLING-PC: 16.8 sec total, 583 ms importing, 521 ms setup, 735 ms photons, 14.9 sec processing, 0 ms extra exporting [422/422 mappings]. Threads: 3:13 min total, 2:32 min processing.
+[2014.07.18-12.42.39:056][ 61]LogStaticLightingSystem:Warning: Illumination: 24.9 sec (1.43 sec encoding lightmaps)
+[2014.07.18-12.42.39:056][ 61]LogStaticLightingSystem: Lightmap texture memory:  1.7 MB (1.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2014.07.18-12.42.39:056][ 61]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.07.18-12.42.39:362][ 61]LogWindows:Error: appError called: Assertion failed: IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Core\Public\Templates\SharedPointer.h] [Line: 649]
+
+Stack:
+Address = 0xe965d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe94fd275 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6f5b64d (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xe6f2fcf0 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xe6ef4570 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xe6ee9f31 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xe6eee267 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xdde78b3d (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-DetailCustomizations.dll]
+Address = 0xdde7d367 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-DetailCustomizations.dll]
+Address = 0xe7cb9bf0 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe84fa0ac (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe850efb3 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe850e864 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe81a06a1 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3f7a7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f79d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f79d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f7a9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f7a9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x778459ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.18-12.42.39:362][ 61]LogWindows:Error: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
+[2014.07.18-12.42.39:362][ 61]LogCrashTracker: 
+
+
+[2014.07.18-12.42.40:788][ 61]LogCrashTracker: 
+
+
+[2014.07.18-12.42.40:788][ 61]LogWindows: === Critical error: ===
+Unhandled Exception: 0x00000001
+
+[2014.07.18-12.42.40:788][ 61]LogWindows: Assertion failed: IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\Core\Public\Templates\SharedPointer.h] [Line: 649]
+
+Stack:
+Address = 0xe965d866 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe94fd275 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6f5b64d (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xe6f2fcf0 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xe6ef4570 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xe6ee9f31 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xe6eee267 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xdde78b3d (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-DetailCustomizations.dll]
+Address = 0xdde7d367 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-DetailCustomizations.dll]
+Address = 0xe7cb9bf0 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe84fa0ac (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe850efb3 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe850e864 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe81a06a1 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3f7a7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f79d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f79d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f7a9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f7a9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x778459ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+
+Address = 0xfd84940d (filename not found) [in C:\Windows\system32\KERNELBASE.dll]
+Address = 0xe965c1dc (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe950b94a (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe94fd320 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe6f5b64d (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xe6f2fcf0 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xe6ef4570 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xe6ee9f31 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xe6eee267 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xdde78b3d (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-DetailCustomizations.dll]
+Address = 0xdde7d367 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-DetailCustomizations.dll]
+Address = 0xe7cb9bf0 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe84fa0ac (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe850efb3 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe850e864 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe81a06a1 (filename not found) [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3f7a7b03 + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2091] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f79d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f79d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f7a9119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f7a9fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x778459ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7797c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.18-12.42.40:788][ 61]LogExit: Executing StaticShutdownAfterError
+[2014.07.18-12.42.40:806][ 61]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.07.18-12.42.40:806][ 61]Log file closed, 07/18/14 14:42:40
