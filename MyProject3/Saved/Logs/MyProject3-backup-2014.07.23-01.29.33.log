@@ -1,0 +1,400 @@
+Log file open, 07/23/14 01:21:17
+LogInit:Display: Running engine for game: MyProject3
+LogInit: Version: 4.3.0-2215663+++depot+UE4-Releases+4.3
+LogInit: API Version: 2215663
+LogInit: Compiled (64-bit): Jul 14 2014 22:23:33
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.3
+LogInit: Command line:  
+LogInit: Base directory: E:/Unreal Engine/4.3/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.07.22-23.21.17:667][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.07.22-23.21.17:721][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.07.22-23.21.17:732][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.07.22-23.21.17:739][  0]LogInit: Object subsystem initialized
+[2014.07.22-23.21.17:741][  0]LogInit: Selected Device Profile: [Windows]
+[2014.07.22-23.21.17:741][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.07.22-23.21.17:745][  0]LogInit: Computer: SPAEHLING-PC
+[2014.07.22-23.21.17:745][  0]LogInit: User: Spaehling
+[2014.07.22-23.21.17:746][  0]LogInit: CPU Page size=4096, Cores=6
+[2014.07.22-23.21.17:746][  0]LogInit: High frequency timer resolution =3.126943 MHz
+[2014.07.22-23.21.17:746][  0]LogMemory: Memory total: Physical=64.0GB (64GB approx) Virtual=8192.0GB
+[2014.07.22-23.21.17:746][  0]LogMemory: Platform Memory Stats for Windows
+[2014.07.22-23.21.17:746][  0]LogMemory: Process Physical Memory: 63.06 MB used, 63.06 MB peak
+[2014.07.22-23.21.17:746][  0]LogMemory: Process Virtual Memory: 43.04 MB used, 43.04 MB peak
+[2014.07.22-23.21.17:746][  0]LogMemory: Physical Memory: 7171.23 MB used, 65486.15 MB total
+[2014.07.22-23.21.17:746][  0]LogMemory: Virtual Memory: 252.59 MB used, 8388608.00 MB total
+[2014.07.22-23.21.17:788][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 690 (Feature Level 11_0)
+[2014.07.22-23.21.17:788][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.07.22-23.21.17:788][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.07.22-23.21.17:793][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.07.22-23.21.17:802][  0]LogD3D11RHI: Async texture creation enabled
+[2014.07.22-23.21.17:852][  0]LogTextLocalizationManager:Warning: The selected culture 'de_DE' is not available; falling back to 'en'
+[2014.07.22-23.21.17:909][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.07.22-23.21.18:471][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.22-23.21.18:541][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.22-23.21.18:568][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.07.22-23.21.18:603][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Spaehling/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.07.22-23.21.18:603][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Spaehling/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc
+[2014.07.22-23.21.18:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UDK4 Projects/Waagenbau/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.07.22-23.21.18:603][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.07.22-23.21.18:618][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.07.22-23.21.18:630][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Spaehling/AppData/Local/UnrealEngine/4.3/DerivedDataCache: Writable
+[2014.07.22-23.21.18:749][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.07.22-23.21.18:749][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.07.22-23.21.19:031][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.07.22-23.21.19:579][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DefaultPaperTerrainMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.07.22-23.21.19:579][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DummySprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.07.22-23.21.19:580][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.07.22-23.21.19:662][  0]SourceControl: Info Source control is disabled
+[2014.07.22-23.21.19:662][  0]SourceControl: Info Source control is disabled
+[2014.07.22-23.21.19:666][  0]SourceControl: Info Source control is disabled
+[2014.07.22-23.21.19:755][  0]BlueprintLog: New page: Editor Load
+[2014.07.22-23.21.19:783][  0]LogObj: 20265 objects as part of root set at end of initial load.
+[2014.07.22-23.21.19:783][  0]LogUObjectAllocator: 4015024 out of 0 bytes used by permanent object pool.
+[2014.07.22-23.21.19:909][  0]LogEngine: Initializing Engine...
+[2014.07.22-23.21.20:003][  0]LogInit: XAudio2 using 'Lautsprecher (Corsair Vengeance 2000 Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
+[2014.07.22-23.21.20:011][  0]LogInit: FAudioDevice initialized.
+[2014.07.22-23.21.20:021][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.07.22-23.21.20:042][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Spaehling/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.07.22-23.21.20:046][  0]LogInit: Texture streaming: Enabled
+[2014.07.22-23.21.20:065][  0]LogInit: Transaction tracking system initialized
+[2014.07.22-23.21.20:127][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2014.07.22-23.21.20:221][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.22-23.21.20:246][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.22-23.21.20:315][  0]LogConsoleResponse:Display: 
+[2014.07.22-23.21.20:418][  0]SourceControl: Info Source control is disabled
+[2014.07.22-23.21.20:418][  0]Cmd: MAP LOAD FILE="D:/UDK4 Projects/Waagenbau/Content/Maps/waagenbau.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.07.22-23.21.20:418][  0]LightingResults: New page: Lighting Build
+[2014.07.22-23.21.20:423][  0]MapCheck: New page: Map Check
+[2014.07.22-23.21.20:423][  0]LightingResults: New page: Lighting Build
+[2014.07.22-23.21.20:428][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010869080
+[2014.07.22-23.21.21:803][  0]LogBlueprint:Warning: Node '/Game/Blueprints/Assets/Cigarettes.cigarettes:UserConstructionScript.K2Node_VariableGet_424' missing NodeGuid.
+[2014.07.22-23.21.22:242][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.07.22-23.21.22:788][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.07.22-23.21.22:911][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.07.22-23.21.23:330][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.07.22-23.21.23:483][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_19)
+[2014.07.22-23.21.23:484][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_24)
+[2014.07.22-23.21.23:485][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_25)
+[2014.07.22-23.21.23:485][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_26)
+[2014.07.22-23.21.23:486][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_27)
+[2014.07.22-23.21.23:487][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_28)
+[2014.07.22-23.21.23:487][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_29)
+[2014.07.22-23.21.23:488][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_30)
+[2014.07.22-23.21.23:489][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_31)
+[2014.07.22-23.21.23:490][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_32)
+[2014.07.22-23.21.23:490][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_33)
+[2014.07.22-23.21.23:491][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_34)
+[2014.07.22-23.21.23:491][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_35)
+[2014.07.22-23.21.23:492][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_36)
+[2014.07.22-23.21.23:493][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_37)
+[2014.07.22-23.21.23:493][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_38)
+[2014.07.22-23.21.23:494][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_39)
+[2014.07.22-23.21.23:495][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_40)
+[2014.07.22-23.21.23:495][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_41)
+[2014.07.22-23.21.23:496][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_42)
+[2014.07.22-23.21.23:497][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_43)
+[2014.07.22-23.21.23:497][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_44)
+[2014.07.22-23.21.23:498][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_45)
+[2014.07.22-23.21.23:499][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (WallSconce_24)
+[2014.07.22-23.21.24:363][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.22-23.21.24:364][  0]LogAIModule: Creating AISystem for world waagenbau
+[2014.07.22-23.21.24:364][  0]Cmd: MAP CHECKDEP
+[2014.07.22-23.21.24:364][  0]MapCheck: New page: waagenbau - Jul 23, 2014, 3:21:24 AM
+[2014.07.22-23.21.24:434][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [69.589ms] ==========
+[2014.07.22-23.21.24:434][  0]LogFileHelpers: Loading map 'waagenbau' took 4.016
+[2014.07.22-23.21.24:666][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.07.22-23.21.24:680][  0]LogCollectionManager: Loaded 0 collections in 0.000697 seconds
+[2014.07.22-23.21.25:111][  0]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.07.22-23.21.25:410][  0]LogRenderer:Warning: Reallocating scene render targets to support 128x128.
+[2014.07.22-23.21.25:692][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2014.07.22-23.21.25:722][  0]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.07.22-23.21.25:757][  0]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.07.22-23.21.25:757][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.07.22-23.21.25:778][  0]LogLoad: Full Startup: 8.76 seconds (BP compile: 0.49 seconds)
+[2014.07.22-23.21.25:793][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Animation'
+[2014.07.22-23.21.25:913][  0]LogSlate: SRTH: 000000002A0DB580, 1156 x 853
+[2014.07.22-23.21.25:943][  0]LogRenderer:Warning: Reallocating scene render targets to support 1160x856.
+[2014.07.22-23.21.26:201][  0]LogSlate: SRTH: 000000002A104B80, 1386 x 852
+[2014.07.22-23.21.26:223][  0]LogRenderer:Warning: Reallocating scene render targets to support 1392x856.
+[2014.07.22-23.21.26:416][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>B75C8EEDA9747629</RequestId><HostId>TyTTQKUPXgLsoc8rAToets36KYMqC0SXNZRCdyi1naOMk872/IZpISInUubpqsKH</HostId></Error>
+[2014.07.22-23.21.26:550][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>7E91E5742E0B10C7</RequestId><HostId>X82feFFc0tUc/b36xXlmU5qC+RmaXdyLA708n1QF2LIAVmq63PHuhenNWnbqlUj8I1MUu4+UrMw=</HostId></Error>
+[2014.07.22-23.21.26:602][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>B75C8EEDA9747629</RequestId><HostId>TyTTQKUPXgLsoc8rAToets36KYMqC0SXNZRCdyi1naOMk872/IZpISInUubpqsKH</HostId></Error>
+[2014.07.22-23.21.26:610][  3]LogAssetRegistry: Asset discovery search completed in 6.4936 seconds
+[2014.07.22-23.21.26:708][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>7E91E5742E0B10C7</RequestId><HostId>X82feFFc0tUc/b36xXlmU5qC+RmaXdyLA708n1QF2LIAVmq63PHuhenNWnbqlUj8I1MUu4+UrMw=</HostId></Error>
+[2014.07.22-23.21.26:960][  6]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.22-23.21.26:961][  6]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.22-23.21.27:208][ 10]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>1174DFAE2201B704</RequestId><HostId>tJYuR+lLrbZIaSlwT4ZiCkI6Kr+rmkF+oyvWyfW9IiLGvq+EZNVpTKIQR7EdQ6JwkkUdOZMCK/w=</HostId></Error>
+[2014.07.22-23.21.30:170][140]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.07.22-23.21.30:238][144]LogSlate: SRTH: 00000000225EB1C0, 655 x 813
+[2014.07.22-23.21.30:762][167]LogSlate: SRTH: 000000002792D840, 1386 x 852
+[2014.07.22-23.22.22:249][954]LogEditorViewport: Clicking on Actor (context menu): BotCharacter_Male_C (BotCharacter_2)
+[2014.07.22-23.22.40:996][920]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.07.22-23.22.41:056][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000284587C0
+[2014.07.22-23.22.41:056][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000286A2160
+[2014.07.22-23.22.41:057][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C4BF600
+[2014.07.22-23.22.41:119][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BotCharacter_Male" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset" SILENT=true
+[2014.07.22-23.22.41:478][920]LogSavePackage: Save=352.144562ms
+[2014.07.22-23.22.41:478][920]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/BotCharacter_MaleA7B10DB640FAC4F54CECD497C5E6B49B.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
+[2014.07.22-23.22.55:587][767]LogSlate: SRTH: 000000000C920640, 647 x 375
+[2014.07.22-23.23.36:494][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.07.22-23.23.36:509][823]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027E9F380
+[2014.07.22-23.23.36:509][823]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D9E8C20
+[2014.07.22-23.23.36:513][823]LogMetaData: Removing '/Game/Blueprints/Animation/female_bot_all.female_bot_all_C' ref from Metadata '/Game/Blueprints/Animation/female_idle_walk_run.PackageMetaData'
+[2014.07.22-23.23.36:513][823]LogMetaData: Removing '/Game/Blueprints/Animation/female_bot_all.SKEL_female_bot_all_C' ref from Metadata '/Game/Blueprints/Animation/female_idle_walk_run.PackageMetaData'
+[2014.07.22-23.23.36:530][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/female_bot_all" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/Animation/female_bot_all.uasset" SILENT=true
+[2014.07.22-23.23.36:555][823]LogSavePackage: Save=24.502846ms
+[2014.07.22-23.23.36:555][823]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/female_bot_all30C35D9C4F31E52683712CA6AE8C4AA2.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Animation/female_bot_all.uasset'
+[2014.07.22-23.23.36:562][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/female_idle_walk_run" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/Animation/female_idle_walk_run.uasset" SILENT=true
+[2014.07.22-23.23.36:574][823]LogSavePackage: Save=5.835412ms
+[2014.07.22-23.23.36:574][823]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/female_idle_walk_run6B4D08E8448D5F0BE2D2CE81EE0BC007.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Animation/female_idle_walk_run.uasset'
+[2014.07.22-23.23.41:089][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.07.22-23.23.45:278][279]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.07.22-23.23.45:963][315]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.07.22-23.23.46:587][326]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.07.22-23.23.47:451][375]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.07.22-23.23.49:099][442]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.07.22-23.23.49:953][490]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Animation'
+[2014.07.22-23.23.50:982][549]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Assets'
+[2014.07.22-23.23.51:921][592]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Characters'
+[2014.07.22-23.23.52:701][628]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/GameLogic'
+[2014.07.22-23.23.53:336][661]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Materials'
+[2014.07.22-23.23.54:142][706]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Particles'
+[2014.07.22-23.23.55:979][800]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.07.22-23.23.58:452][907]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.07.22-23.23.59:924][990]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.07.22-23.24.00:313][  2]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.07.22-23.24.01:439][ 43]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.07.22-23.24.02:649][ 91]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Normals'
+[2014.07.22-23.24.03:269][128]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.07.22-23.24.04:141][178]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.07.22-23.24.05:235][240]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Shapes'
+[2014.07.22-23.24.06:050][276]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Skeletal'
+[2014.07.22-23.24.06:789][310]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Skeleton'
+[2014.07.22-23.24.08:956][433]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Animation'
+[2014.07.22-23.24.11:563][573]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Assets'
+[2014.07.22-23.24.20:245][949]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Characters'
+[2014.07.22-23.24.21:080][994]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/GameLogic'
+[2014.07.22-23.24.21:700][ 32]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Materials'
+[2014.07.22-23.24.23:078][107]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Particles'
+[2014.07.22-23.24.29:444][462]LogEditorViewport: Clicking on Actor (LMB): DancingZone_C (DancingZone)
+[2014.07.22-23.24.33:006][651]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.07.22-23.24.33:566][651]LogSavePackage: Save=420.415710ms
+[2014.07.22-23.24.33:566][651]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/waagenbau9CA4EE124AD85ABB1F672CA818D39750.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Maps/waagenbau.umap'
+[2014.07.22-23.24.33:624][651]LogFileHelpers: Saving map 'waagenbau' took 0.597
+[2014.07.22-23.24.35:572][739]LogEditorViewport: Clicking on Actor (LMB): BotCharacter_Male_C (BotCharacter_7)
+[2014.07.22-23.25.11:011][414]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Particles'
+[2014.07.22-23.25.15:080][606]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Materials'
+[2014.07.22-23.25.16:630][683]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/GameLogic'
+[2014.07.22-23.25.26:646][185]LogSlate: SRTH: 000000002792E140, 1353 x 852
+[2014.07.22-23.25.31:622][535]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002289A660
+[2014.07.22-23.25.32:563][535]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SKEL_Tracklist_12_C' or package '/Game/Blueprints/GameLogic/Tracklist_12'.
+[2014.07.22-23.25.35:046][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.07.22-23.25.44:902][ 79]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Characters'
+[2014.07.22-23.25.48:193][226]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Assets'
+[2014.07.22-23.25.49:230][272]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Animation'
+[2014.07.22-23.26.45:747][844]LogSlate: SRTH: 0000000028AF0100, 647 x 375
+[2014.07.22-23.27.50:755][656]LogSlate: SRTH: 000000003FA91180, 647 x 375
+[2014.07.22-23.28.05:475][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:475][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:475][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:475][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:475][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:475][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:475][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:475][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:475][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:476][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:476][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:476][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:476][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:476][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:476][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:476][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:476][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:476][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:476][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:476][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:477][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:477][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:477][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:477][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:477][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:477][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:477][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:477][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:477][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:477][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:477][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:477][419]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.22-23.28.05:478][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_416 or K2Node_VariableGet /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_416
+[2014.07.22-23.28.05:478][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_416.EdGraphPin_3391) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_15.EdGraphPin_2284).  Import failed...
+[2014.07.22-23.28.05:478][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_416.EdGraphPin_3391"''
+[2014.07.22-23.28.05:478][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_207 or AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_207
+[2014.07.22-23.28.05:478][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_207.EdGraphPin_2320) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_15.EdGraphPin_2286).  Import failed...
+[2014.07.22-23.28.05:478][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_LayeredBoneBlend_207.EdGraphPin_2320"''
+[2014.07.22-23.28.05:479][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_BlendSpacePlayer /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_39 or AnimGraphNode_BlendSpacePlayer /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_39
+[2014.07.22-23.28.05:479][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_39.EdGraphPin_2305) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_416.EdGraphPin_3391).  Import failed...
+[2014.07.22-23.28.05:479][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_BlendSpacePlayer_39.EdGraphPin_2305"''
+[2014.07.22-23.28.05:479][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_BlendSpacePlayer /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_991 or AnimGraphNode_BlendSpacePlayer /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_991
+[2014.07.22-23.28.05:479][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_991.EdGraphPin_2359) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_416.EdGraphPin_3391).  Import failed...
+[2014.07.22-23.28.05:479][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_BlendSpacePlayer_991.EdGraphPin_2359"''
+[2014.07.22-23.28.05:480][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_207 or AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_207
+[2014.07.22-23.28.05:480][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_207.EdGraphPin_2321) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_39.EdGraphPin_2307).  Import failed...
+[2014.07.22-23.28.05:480][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_LayeredBoneBlend_207.EdGraphPin_2321"''
+[2014.07.22-23.28.05:480][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_1714 or K2Node_VariableGet /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_1714
+[2014.07.22-23.28.05:480][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_1714.EdGraphPin_3313) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_97491.EdGraphPin_3350).  Import failed...
+[2014.07.22-23.28.05:480][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1714.EdGraphPin_3313"''
+[2014.07.22-23.28.05:481][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_207 or AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_207
+[2014.07.22-23.28.05:481][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_207.EdGraphPin_2322) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_97491.EdGraphPin_3351).  Import failed...
+[2014.07.22-23.28.05:481][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_LayeredBoneBlend_207.EdGraphPin_2322"''
+[2014.07.22-23.28.05:482][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_941 or AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_941
+[2014.07.22-23.28.05:482][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_941.EdGraphPin_2335) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_207.EdGraphPin_2323).  Import failed...
+[2014.07.22-23.28.05:482][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_LayeredBoneBlend_941.EdGraphPin_2335"''
+[2014.07.22-23.28.05:482][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_955 or AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_955
+[2014.07.22-23.28.05:482][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_955.EdGraphPin_2348) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_SequencePlayer_899.EdGraphPin_2332).  Import failed...
+[2014.07.22-23.28.05:482][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_LayeredBoneBlend_955.EdGraphPin_2348"''
+[2014.07.22-23.28.05:483][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_BlendSpacePlayer /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_991 or AnimGraphNode_BlendSpacePlayer /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_991
+[2014.07.22-23.28.05:483][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_991.EdGraphPin_2361) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_941.EdGraphPin_2336).  Import failed...
+[2014.07.22-23.28.05:483][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_BlendSpacePlayer_991.EdGraphPin_2361"''
+[2014.07.22-23.28.05:483][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_31573 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_31573
+[2014.07.22-23.28.05:483][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_31573.EdGraphPin_3225) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_941.EdGraphPin_2337).  Import failed...
+[2014.07.22-23.28.05:483][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_31573.EdGraphPin_3225"''
+[2014.07.22-23.28.05:483][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_955 or AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_955
+[2014.07.22-23.28.05:483][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_955.EdGraphPin_2347) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_941.EdGraphPin_2338).  Import failed...
+[2014.07.22-23.28.05:483][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_LayeredBoneBlend_955.EdGraphPin_2347"''
+[2014.07.22-23.28.05:484][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_32379 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_32379
+[2014.07.22-23.28.05:484][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_32379.EdGraphPin_3216) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_955.EdGraphPin_2349).  Import failed...
+[2014.07.22-23.28.05:484][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_32379.EdGraphPin_3216"''
+[2014.07.22-23.28.05:484][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_619 or AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_619
+[2014.07.22-23.28.05:484][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_619.EdGraphPin_2455) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_955.EdGraphPin_2350).  Import failed...
+[2014.07.22-23.28.05:484][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_LayeredBoneBlend_619.EdGraphPin_2455"''
+[2014.07.22-23.28.05:486][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_22986 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_3.Dance Style.K2Node_CallFunction_22986
+[2014.07.22-23.28.05:486][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_22986 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_22986
+[2014.07.22-23.28.05:486][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_22986.EdGraphPin_3321) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_127.EdGraphPin_2368).  Import failed...
+[2014.07.22-23.28.05:486][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_22986.EdGraphPin_3321"''
+[2014.07.22-23.28.05:486][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_619 or AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_619
+[2014.07.22-23.28.05:486][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_619.EdGraphPin_2456) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_BlendSpacePlayer_127.EdGraphPin_2373).  Import failed...
+[2014.07.22-23.28.05:486][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_LayeredBoneBlend_619.EdGraphPin_2456"''
+[2014.07.22-23.28.05:487][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_22986 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_3.Dance Style.K2Node_CallFunction_22986
+[2014.07.22-23.28.05:487][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_22986 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_22986
+[2014.07.22-23.28.05:487][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_22986.EdGraphPin_3320) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_1371.EdGraphPin_3343).  Import failed...
+[2014.07.22-23.28.05:487][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_22986.EdGraphPin_3320"''
+[2014.07.22-23.28.05:488][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_628 or AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_628
+[2014.07.22-23.28.05:488][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_628.EdGraphPin_2432) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_SequencePlayer_815.EdGraphPin_2392).  Import failed...
+[2014.07.22-23.28.05:488][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_LayeredBoneBlend_628.EdGraphPin_2432"''
+[2014.07.22-23.28.05:488][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_344010 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_344010
+[2014.07.22-23.28.05:489][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_344010.EdGraphPin_3134) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_5509.EdGraphPin_3283).  Import failed...
+[2014.07.22-23.28.05:489][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_344010.EdGraphPin_3134"''
+[2014.07.22-23.28.05:489][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_638 or AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_638
+[2014.07.22-23.28.05:489][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_638.EdGraphPin_2444) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_SequencePlayer_433.EdGraphPin_2404).  Import failed...
+[2014.07.22-23.28.05:489][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_LayeredBoneBlend_638.EdGraphPin_2444"''
+[2014.07.22-23.28.05:490][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_2157 or K2Node_VariableGet /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_3.Dance Style.K2Node_VariableGet_2157
+[2014.07.22-23.28.05:490][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_2157 or K2Node_VariableGet /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_2157
+[2014.07.22-23.28.05:490][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_2157.EdGraphPin_3262) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_42493.EdGraphPin_3290).  Import failed...
+[2014.07.22-23.28.05:490][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_2157.EdGraphPin_3262"''
+[2014.07.22-23.28.05:491][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_619 or AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_619
+[2014.07.22-23.28.05:491][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_619.EdGraphPin_2458) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_628.EdGraphPin_2431).  Import failed...
+[2014.07.22-23.28.05:491][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_LayeredBoneBlend_619.EdGraphPin_2458"''
+[2014.07.22-23.28.05:491][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_344010 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_344010
+[2014.07.22-23.28.05:491][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_344010.EdGraphPin_3135) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_628.EdGraphPin_2433).  Import failed...
+[2014.07.22-23.28.05:491][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_344010.EdGraphPin_3135"''
+[2014.07.22-23.28.05:491][419]LogUObjectHash:Warning: Ambiguous search, could be AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_638 or AnimGraphNode_LayeredBoneBlend /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_638
+[2014.07.22-23.28.05:491][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_638.EdGraphPin_2443) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_628.EdGraphPin_2434).  Import failed...
+[2014.07.22-23.28.05:491][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_LayeredBoneBlend_638.EdGraphPin_2443"''
+[2014.07.22-23.28.05:492][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_32555 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_32555
+[2014.07.22-23.28.05:492][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_32555.EdGraphPin_3147) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_638.EdGraphPin_2445).  Import failed...
+[2014.07.22-23.28.05:492][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_32555.EdGraphPin_3147"''
+[2014.07.22-23.28.05:492][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_StateResult_36.EdGraphPin_2281) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_638.EdGraphPin_2446).  Import failed...
+[2014.07.22-23.28.05:492][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"AnimGraphNode_StateResult_36.EdGraphPin_2281"''
+[2014.07.22-23.28.05:493][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_237265 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_237265
+[2014.07.22-23.28.05:493][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_237265.EdGraphPin_3243) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.AnimGraphNode_LayeredBoneBlend_619.EdGraphPin_2457).  Import failed...
+[2014.07.22-23.28.05:493][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_237265.EdGraphPin_3243"''
+[2014.07.22-23.28.05:493][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_237265 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_237265
+[2014.07.22-23.28.05:494][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_237265.EdGraphPin_3242) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_4435.EdGraphPin_3250).  Import failed...
+[2014.07.22-23.28.05:494][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_237265.EdGraphPin_3242"''
+[2014.07.22-23.28.05:495][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_31573 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_31573
+[2014.07.22-23.28.05:495][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_31573.EdGraphPin_3224) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_948.EdGraphPin_3235).  Import failed...
+[2014.07.22-23.28.05:495][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_31573.EdGraphPin_3224"''
+[2014.07.22-23.28.05:496][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_32379 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_32379
+[2014.07.22-23.28.05:496][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_32379.EdGraphPin_3215) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_1240.EdGraphPin_3181).  Import failed...
+[2014.07.22-23.28.05:496][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_32379.EdGraphPin_3215"''
+[2014.07.22-23.28.05:497][419]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_32555 or K2Node_CallFunction /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_32555
+[2014.07.22-23.28.05:497][419]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Animation/male_bot_all.male_bot_all:AnimGraph.AnimGraphNode_StateMachine_10.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_CallFunction_32555.EdGraphPin_3146) from referencer (EdGraphPin /Game/Blueprints/Animation/female_bot_all.female_bot_all:AnimGraph.AnimGraphNode_StateMachine_16.Locomotion.AnimStateNode_1.Idle_Walk_Run.K2Node_VariableGet_1294.EdGraphPin_3202).  Import failed...
+[2014.07.22-23.28.05:497][419]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_32555.EdGraphPin_3146"''
+[2014.07.22-23.28.05:499][419]LogBlueprint:Warning: [female_bot_all] CreatePinForVariable: 'ABP Only Bottle On/Off' variable not found. Base class was probably changed.
+[2014.07.22-23.28.05:500][419]LogBlueprint:Warning: [female_bot_all] CreatePinForVariable: 'ABP DanceStyle' variable not found. Base class was probably changed.
+[2014.07.22-23.28.05:500][419]LogBlueprint:Warning: [female_bot_all] CreatePinForVariable: 'ABP Only Bottle On/Off' variable not found. Base class was probably changed.
+[2014.07.22-23.28.05:501][419]LogBlueprint:Warning: [female_bot_all] CreatePinForVariable: 'ABP Smoking On/Off' variable not found. Base class was probably changed.
+[2014.07.22-23.28.05:501][419]LogBlueprint:Warning: [female_bot_all] CreatePinForVariable: 'ABP DanceWalk on/off' variable not found. Base class was probably changed.
+[2014.07.22-23.28.05:502][419]LogBlueprint:Warning: [female_bot_all] CreatePinForVariable: 'ABP Drinking on/off Int' variable not found. Base class was probably changed.
+[2014.07.22-23.28.05:502][419]LogBlueprint:Warning: [female_bot_all] CreatePinForVariable: 'ABP Smoking on/off Int' variable not found. Base class was probably changed.
+[2014.07.22-23.28.05:502][419]LogBlueprint:Warning: [female_bot_all] CreatePinForVariable: 'ABP Smoking on/off Int' variable not found. Base class was probably changed.
+[2014.07.22-23.28.26:998][555]BlueprintLog: New page: Compile female_bot_all
+[2014.07.22-23.28.27:045][555]LogBlueprint:Error: [compiler] Error  Blendspace Player'male_idle_walk_run'  references blendspace that uses different skeleton  spaehling_Skeleton 
+[2014.07.22-23.28.27:052][555]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'ABP Smoking On/Off' for  Get ABP Smoking On/Off 
+[2014.07.22-23.28.27:052][555]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'ABP DanceStyle' for  Get ABP DanceStyle 
+[2014.07.22-23.28.27:055][555]LogBlueprint:Warning: [compiler] Warning [0430.03] Compile of female_bot_all failed. 1 Fatal Issue(s) 2 Warning(s) [in 16 ms]
+[2014.07.22-23.28.27:626][555]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.07.22-23.28.27:671][555]BlueprintEditorCompileResults:Error: Error  Blendspace Player'male_idle_walk_run'  references blendspace that uses different skeleton  spaehling_Skeleton 
+[2014.07.22-23.28.27:671][555]BlueprintEditorCompileResults:Warning: Warning Unable to find variable with name 'ABP Smoking On/Off' for  Get ABP Smoking On/Off 
+[2014.07.22-23.28.27:671][555]BlueprintEditorCompileResults:Warning: Warning Unable to find variable with name 'ABP DanceStyle' for  Get ABP DanceStyle 
+[2014.07.22-23.28.27:671][555]BlueprintEditorCompileResults:Warning: Warning [0430.03] Compile of female_bot_all failed. 1 Fatal Issue(s) 2 Warning(s) [in 16 ms]
+[2014.07.22-23.28.35:522][960]BlueprintLog: New page: Compile female_bot_all
+[2014.07.22-23.28.35:569][960]LogBlueprint:Error: [compiler] Error  Blendspace Player'male_idle_walk_run'  references blendspace that uses different skeleton  spaehling_Skeleton 
+[2014.07.22-23.28.35:579][960]LogBlueprint:Warning: [compiler] Warning [0438.55] Compile of female_bot_all failed. 1 Fatal Issue(s) 0 Warning(s) [in 16 ms]
+[2014.07.22-23.28.36:142][960]BlueprintEditorCompileResults:Error: Error  Blendspace Player'male_idle_walk_run'  references blendspace that uses different skeleton  spaehling_Skeleton 
+[2014.07.22-23.28.36:142][960]BlueprintEditorCompileResults:Warning: Warning [0438.55] Compile of female_bot_all failed. 1 Fatal Issue(s) 0 Warning(s) [in 16 ms]
+[2014.07.22-23.28.39:367][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/female_bot_all" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/Animation/female_bot_all.uasset" SILENT=true
+[2014.07.22-23.28.39:406][106]LogSavePackage: Save=32.921932ms
+[2014.07.22-23.28.39:406][106]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/female_bot_all51C2A12D4E99456063F06B89E97F5C21.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Animation/female_bot_all.uasset'
+[2014.07.22-23.28.59:928][143]LogCrashTracker: 
+
+
+[2014.07.22-23.29.00:188][143]LogCrashTracker: 
+
+
+[2014.07.22-23.29.00:188][143]LogWindows: === Critical error: ===
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000018
+
+[2014.07.22-23.29.00:188][143]LogWindows: Fatal error!
+
+Address = 0xef63c630 (filename not found) [in C:\Windows\system32\MSVCR120.dll]
+Address = 0xe5cd3598 (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xeb939f51 (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-AnimGraph.dll]
+Address = 0xdd9337af (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xe45616cd (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xe4566227 (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xe97cd936 (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe986f457 (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe9874238 (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe985669c (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe99c081a (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe99e0949 (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe97ef939 (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe97e59b9 (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xeb2892cd (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xeb278df1 (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xeb28a38f (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xeb276312 (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x77979bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x779798da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xeb28a786 (filename not found) [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3fd465be + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.3\engine\source\runtime\launch\private\launchengineloop.cpp:2066] [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fd3c0dc + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.3\engine\source\runtime\launch\private\launch.cpp:133] [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fd3c14a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.3\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fd47c59 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.3\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fd48a79 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in E:\Unreal Engine\4.3\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x778559ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x77a8c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x77a8c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.07.22-23.29.00:188][143]LogExit: Executing StaticShutdownAfterError
+[2014.07.22-23.29.00:205][143]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.07.22-23.29.00:205][143]Log file closed, 07/23/14 01:29:00
