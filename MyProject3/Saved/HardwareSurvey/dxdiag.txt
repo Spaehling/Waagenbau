@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-Time of this report: 7/16/2014, 05:11:11
+Time of this report: 8/17/2014, 17:05:12
        Machine name: SPAEHLING-PC
    Operating System: Windows 7 Professional 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_gdr.140303-2144)
            Language: German (Regional Setting: German)
@@ -11,7 +11,7 @@ System Manufacturer: System manufacturer
           Processor: Intel(R) Core(TM) i7-3930K CPU @ 3.20GHz (12 CPUs), ~3.2GHz
              Memory: 65536MB RAM
 Available OS Memory: 65486MB RAM
-          Page File: 8369MB used, 122600MB available
+          Page File: 13024MB used, 117946MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -24,6 +24,7 @@ DX Setup Parameters: Not found
 DxDiag Notes
 ------------
       Display Tab 1: No problems found.
+      Display Tab 2: No problems found.
         Sound Tab 1: No problems found.
         Sound Tab 2: No problems found.
         Sound Tab 3: No problems found.
@@ -61,20 +62,97 @@ Display Devices
         Native Mode: 1920 x 1080(p) (60.000Hz)
         Output Type: HDMI
         Driver Name: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um
-Driver File Version: 9.18.0013.3788 (English)
-     Driver Version: 9.18.13.3788
+Driver File Version: 9.18.0013.4052 (English)
+     Driver Version: 9.18.13.4052
         DDI Version: 11
        Driver Model: WDDM 1.1
   Driver Attributes: Final Retail
-   Driver Date/Size: 5/20/2014 04:44:03, 17480432 bytes
+   Driver Date/Size: 7/2/2014 22:48:32, 17555104 bytes
         WHQL Logo'd: Yes
     WHQL Date Stamp: 
-  Device Identifier: {D7B71E3E-52C8-11CF-3E55-9D061CC2C435}
+  Device Identifier: {D7B71E3E-52C8-11CF-2654-9D061CC2C435}
           Vendor ID: 0x10DE
           Device ID: 0x1188
           SubSys ID: 0x26903842
         Revision ID: 0x00A1
- Driver Strong Name: oem67.inf:NVIDIA_SetA_Devices.NTamd64.6.1:Section139:9.18.13.3788:pci\ven_10de&dev_1188
+ Driver Strong Name: oem68.inf:NVIDIA_SetA_Devices.NTamd64.6.1:Section139:9.18.13.4052:pci\ven_10de&dev_1188
+     Rank Of Driver: 00E02001
+        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
+   Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+       D3D9 Overlay: Supported
+            DXVA-HD: Supported
+       DDraw Status: Enabled
+         D3D Status: Enabled
+         AGP Status: Enabled
+
+          Card name: NVIDIA GeForce GTX 690
+       Manufacturer: NVIDIA
+          Chip type: GeForce GTX 690
+           DAC type: Integrated RAMDAC
+         Device Key: Enum\PCI\VEN_10DE&DEV_1188&SUBSYS_26903842&REV_A1
+     Display Memory: 4038 MB
+   Dedicated Memory: 1990 MB
+      Shared Memory: 2048 MB
+       Current Mode: 1920 x 1080 (32 bit) (60Hz)
+       Monitor Name: PnP-Monitor (Standard)
+      Monitor Model: 237E4
+         Monitor Id: PHLC0AD
+        Native Mode: 1920 x 1080(p) (60.000Hz)
+        Output Type: HDMI
+        Driver Name: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um
+Driver File Version: 9.18.0013.4052 (English)
+     Driver Version: 9.18.13.4052
+        DDI Version: 11
+       Driver Model: WDDM 1.1
+  Driver Attributes: Final Retail
+   Driver Date/Size: 7/2/2014 22:48:32, 17555104 bytes
+        WHQL Logo'd: Yes
+    WHQL Date Stamp: 
+  Device Identifier: {D7B71E3E-52C8-11CF-2654-9D061CC2C435}
+          Vendor ID: 0x10DE
+          Device ID: 0x1188
+          SubSys ID: 0x26903842
+        Revision ID: 0x00A1
+ Driver Strong Name: oem68.inf:NVIDIA_SetA_Devices.NTamd64.6.1:Section139:9.18.13.4052:pci\ven_10de&dev_1188
      Rank Of Driver: 00E02001
         Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
    Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
@@ -151,7 +229,7 @@ Static/Strm HW Mix Bufs: 1, 0
    I3DL2(tm) Listen/Src: No, No
 Sensaura(tm) ZoomFX(tm): No
 
-            Description: 237E4-0 (NVIDIA High Definition Audio)
+            Description: 237E4-0 (2- NVIDIA High Definition Audio)
  Default Sound Playback: No
  Default Voice Playback: No
             Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0040&SUBSYS_38422690&REV_1001
@@ -176,7 +254,7 @@ Static/Strm HW Mix Bufs: 1, 0
    I3DL2(tm) Listen/Src: No, No
 Sensaura(tm) ZoomFX(tm): No
 
-            Description: 237E4-C (2- NVIDIA High Definition Audio)
+            Description: 237E4-C (NVIDIA High Definition Audio)
  Default Sound Playback: No
  Default Voice Playback: No
             Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0040&SUBSYS_38422690&REV_1001
@@ -435,25 +513,25 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 14.1 GB
+ Free Space: 49.2 GB
 Total Space: 228.7 GB
 File System: NTFS
       Model: INTEL SSDSC2CW240A3 SCSI Disk Device
 
       Drive: D:
- Free Space: 1454.6 GB
+ Free Space: 1343.9 GB
 Total Space: 1907.6 GB
 File System: NTFS
       Model: SAMSUNG HD204UI SCSI Disk Device
 
       Drive: E:
- Free Space: 1005.1 GB
+ Free Space: 1002.6 GB
 Total Space: 1907.7 GB
 File System: NTFS
       Model: ST2000DM 001-1CH164 SCSI Disk Device
 
       Drive: F:
- Free Space: 20.3 GB
+ Free Space: 15.4 GB
 Total Space: 1907.7 GB
 File System: NTFS
       Model: ST2000DM 001-1CH164 SCSI Disk Device
@@ -462,7 +540,7 @@ File System: NTFS
       Model: ST2000DM 001-1CH164 SCSI Disk Device
 
       Drive: H:
- Free Space: 622.6 GB
+ Free Space: 618.5 GB
 Total Space: 953.9 GB
 File System: NTFS
       Model: SAMSUNG HD103UJ SCSI Disk Device
@@ -478,138 +556,6 @@ File System: NTFS
 --------------
 System Devices
 --------------
-     Name: PCI Standard-PCI-zu-PCI-Brücke
-Device ID: PCI\VEN_10B5&DEV_8747&SUBSYS_874710B5&REV_BA\4&15E7D2AB&0&0010
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Power Control Unit 3 - 3CD0
-Device ID: PCI\VEN_8086&DEV_3CD0&SUBSYS_84EF1043&REV_07\3&4F11E61&0&53
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Address Map, VTd_Misc, System Management - 3C28
-Device ID: PCI\VEN_8086&DEV_3C28&SUBSYS_84EF1043&REV_07\3&11583659&0&28
-   Driver: n/a
-
-     Name: Intel(R) Management Engine Interface 
-Device ID: PCI\VEN_8086&DEV_1D3A&SUBSYS_84EF1043&REV_05\3&11583659&0&B0
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Unicast Register 0 - 3CE8
-Device ID: PCI\VEN_8086&DEV_3CE8&SUBSYS_84EF1043&REV_07\3&4F11E61&0&68
-   Driver: n/a
-
-     Name: Intel(R) C600/X79 series chipset PCI Express Root Port 3 - 1D14
-Device ID: PCI\VEN_8086&DEV_1D14&SUBSYS_84EF1043&REV_B6\3&11583659&0&E2
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 QPI Link 0 - 3C80
-Device ID: PCI\VEN_8086&DEV_3C80&SUBSYS_84EF1043&REV_07\3&4F11E61&0&40
-   Driver: n/a
-
-     Name: Asmedia 106x SATA Controller
-Device ID: PCI\VEN_1B21&DEV_0612&SUBSYS_84B71043&REV_01\4&18D41C3A&0&00E1
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Integrated Memory Controller Target Address Decoder 0 - 3CAA
-Device ID: PCI\VEN_8086&DEV_3CAA&SUBSYS_84EF1043&REV_07\3&4F11E61&0&7A
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Integrated Memory Controller ERROR Registers 1 - 3CB3
-Device ID: PCI\VEN_8086&DEV_3CB3&SUBSYS_84EF1043&REV_07\3&4F11E61&0&83
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Power Control Unit 2 - 3CC2
-Device ID: PCI\VEN_8086&DEV_3CC2&SUBSYS_84EF1043&REV_07\3&4F11E61&0&52
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 IIO PCI Express Root Port 3a in PCI Express Mode - 3C08
-Device ID: PCI\VEN_8086&DEV_3C08&SUBSYS_84EF1043&REV_07\3&11583659&0&18
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Unicast Register 0 - 3CE8
-Device ID: PCI\VEN_8086&DEV_3CE8&SUBSYS_84EF1043&REV_07\3&4F11E61&0&62
-   Driver: n/a
-
-     Name: Intel(R) C600/X79 series chipset USB2 Enhanced Host Controller #2 - 1D2D
-Device ID: PCI\VEN_8086&DEV_1D2D&SUBSYS_84EF1043&REV_06\3&11583659&0&D0
-   Driver: n/a
-
-     Name: Intel(R) C600/X79 series chipset PCI Express Root Port 2 - 1D12
-Device ID: PCI\VEN_8086&DEV_1D12&SUBSYS_84EF1043&REV_B6\3&11583659&0&E1
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Integrated Memory Controller RAS Registers - 3C71
-Device ID: PCI\VEN_8086&DEV_3C71&SUBSYS_84EF1043&REV_07\3&4F11E61&0&79
-   Driver: n/a
-
-     Name: NVIDIA GeForce GTX 690
-Device ID: PCI\VEN_10DE&DEV_1188&SUBSYS_26903842&REV_A1\6&FFD7521&0&00400010
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Integrated Memory Controller Registers - 3CA8
-Device ID: PCI\VEN_8086&DEV_3CA8&SUBSYS_84EF1043&REV_07\3&4F11E61&0&78
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Integrated Memory Controller ERROR Registers 0 - 3CB2
-Device ID: PCI\VEN_8086&DEV_3CB2&SUBSYS_84EF1043&REV_07\3&4F11E61&0&82
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Power Control Unit 1 - 3CC1
-Device ID: PCI\VEN_8086&DEV_3CC1&SUBSYS_84EF1043&REV_07\3&4F11E61&0&51
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Unicast Register 0 - 3CE8
-Device ID: PCI\VEN_8086&DEV_3CE8&SUBSYS_84EF1043&REV_07\3&4F11E61&0&61
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 IIO PCI Express Root Port 2a - 3C04
-Device ID: PCI\VEN_8086&DEV_3C04&SUBSYS_84EF1043&REV_07\3&11583659&0&10
-   Driver: n/a
-
-     Name: Intel(R) C600/X79 series chipset USB2 Enhanced Host Controller #1 - 1D26
-Device ID: PCI\VEN_8086&DEV_1D26&SUBSYS_84EF1043&REV_06\3&11583659&0&E8
-   Driver: n/a
-
-     Name: Intel(R) C600/X79 series chipset PCI Express Root Port 1 - 1D10
-Device ID: PCI\VEN_8086&DEV_1D10&SUBSYS_84EF1043&REV_B6\3&11583659&0&E0
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Processor Home Agent Performance Monitoring - 3C46
-Device ID: PCI\VEN_8086&DEV_3C46&SUBSYS_84EF1043&REV_07\3&4F11E61&0&71
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Processor Home Agent - 3CA0
-Device ID: PCI\VEN_8086&DEV_3CA0&SUBSYS_84EF1043&REV_07\3&4F11E61&0&70
-   Driver: n/a
-
-     Name: NVIDIA GeForce GTX 690
-Device ID: PCI\VEN_10DE&DEV_1188&SUBSYS_26903842&REV_A1\6&269287FD&0&00800010
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 1 - 3CB1
-Device ID: PCI\VEN_8086&DEV_3CB1&SUBSYS_84EF1043&REV_07\3&4F11E61&0&81
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Power Control Unit 0 - 3CC0
-Device ID: PCI\VEN_8086&DEV_3CC0&SUBSYS_84EF1043&REV_07\3&4F11E61&0&50
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Unicast Register 0 - 3CE8
-Device ID: PCI\VEN_8086&DEV_3CE8&SUBSYS_84EF1043&REV_07\3&4F11E61&0&60
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 IIO PCI Express Root Port 1a - 3C02
-Device ID: PCI\VEN_8086&DEV_3C02&SUBSYS_84EF1043&REV_07\3&11583659&0&08
-   Driver: n/a
-
-     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Ring to QuickPath Interconnect Link 1 Performance Monitor - 3C45
-Device ID: PCI\VEN_8086&DEV_3C45&SUBSYS_84EF1043&REV_07\3&4F11E61&0&9E
-   Driver: n/a
-
-     Name: Intel(R) C600 Series Chipset SATA AHCI Controller
-Device ID: PCI\VEN_8086&DEV_1D02&SUBSYS_84EF1043&REV_06\3&11583659&0&FA
-   Driver: n/a
-
      Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 System Address Decoder - 3CF6
 Device ID: PCI\VEN_8086&DEV_3CF6&SUBSYS_84EF1043&REV_07\3&4F11E61&0&67
    Driver: n/a
@@ -786,6 +732,138 @@ Device ID: PCI\VEN_8086&DEV_3CAB&SUBSYS_84EF1043&REV_07\3&4F11E61&0&7B
 Device ID: PCI\VEN_8086&DEV_3CB4&SUBSYS_84EF1043&REV_07\3&4F11E61&0&84
    Driver: n/a
 
+     Name: PCI Standard-PCI-zu-PCI-Brücke
+Device ID: PCI\VEN_10B5&DEV_8747&SUBSYS_874710B5&REV_BA\4&15E7D2AB&0&0010
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Power Control Unit 3 - 3CD0
+Device ID: PCI\VEN_8086&DEV_3CD0&SUBSYS_84EF1043&REV_07\3&4F11E61&0&53
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Address Map, VTd_Misc, System Management - 3C28
+Device ID: PCI\VEN_8086&DEV_3C28&SUBSYS_84EF1043&REV_07\3&11583659&0&28
+   Driver: n/a
+
+     Name: Intel(R) Management Engine Interface 
+Device ID: PCI\VEN_8086&DEV_1D3A&SUBSYS_84EF1043&REV_05\3&11583659&0&B0
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Unicast Register 0 - 3CE8
+Device ID: PCI\VEN_8086&DEV_3CE8&SUBSYS_84EF1043&REV_07\3&4F11E61&0&68
+   Driver: n/a
+
+     Name: Intel(R) C600/X79 series chipset PCI Express Root Port 3 - 1D14
+Device ID: PCI\VEN_8086&DEV_1D14&SUBSYS_84EF1043&REV_B6\3&11583659&0&E2
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 QPI Link 0 - 3C80
+Device ID: PCI\VEN_8086&DEV_3C80&SUBSYS_84EF1043&REV_07\3&4F11E61&0&40
+   Driver: n/a
+
+     Name: Asmedia 106x SATA Controller
+Device ID: PCI\VEN_1B21&DEV_0612&SUBSYS_84B71043&REV_01\4&18D41C3A&0&00E1
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Integrated Memory Controller Target Address Decoder 0 - 3CAA
+Device ID: PCI\VEN_8086&DEV_3CAA&SUBSYS_84EF1043&REV_07\3&4F11E61&0&7A
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Integrated Memory Controller ERROR Registers 1 - 3CB3
+Device ID: PCI\VEN_8086&DEV_3CB3&SUBSYS_84EF1043&REV_07\3&4F11E61&0&83
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Power Control Unit 2 - 3CC2
+Device ID: PCI\VEN_8086&DEV_3CC2&SUBSYS_84EF1043&REV_07\3&4F11E61&0&52
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 IIO PCI Express Root Port 3a in PCI Express Mode - 3C08
+Device ID: PCI\VEN_8086&DEV_3C08&SUBSYS_84EF1043&REV_07\3&11583659&0&18
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Unicast Register 0 - 3CE8
+Device ID: PCI\VEN_8086&DEV_3CE8&SUBSYS_84EF1043&REV_07\3&4F11E61&0&62
+   Driver: n/a
+
+     Name: Intel(R) C600/X79 series chipset USB2 Enhanced Host Controller #2 - 1D2D
+Device ID: PCI\VEN_8086&DEV_1D2D&SUBSYS_84EF1043&REV_06\3&11583659&0&D0
+   Driver: n/a
+
+     Name: Intel(R) C600/X79 series chipset PCI Express Root Port 2 - 1D12
+Device ID: PCI\VEN_8086&DEV_1D12&SUBSYS_84EF1043&REV_B6\3&11583659&0&E1
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Integrated Memory Controller RAS Registers - 3C71
+Device ID: PCI\VEN_8086&DEV_3C71&SUBSYS_84EF1043&REV_07\3&4F11E61&0&79
+   Driver: n/a
+
+     Name: NVIDIA GeForce GTX 690
+Device ID: PCI\VEN_10DE&DEV_1188&SUBSYS_26903842&REV_A1\6&FFD7521&0&00400010
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Integrated Memory Controller Registers - 3CA8
+Device ID: PCI\VEN_8086&DEV_3CA8&SUBSYS_84EF1043&REV_07\3&4F11E61&0&78
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Integrated Memory Controller ERROR Registers 0 - 3CB2
+Device ID: PCI\VEN_8086&DEV_3CB2&SUBSYS_84EF1043&REV_07\3&4F11E61&0&82
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Power Control Unit 1 - 3CC1
+Device ID: PCI\VEN_8086&DEV_3CC1&SUBSYS_84EF1043&REV_07\3&4F11E61&0&51
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Unicast Register 0 - 3CE8
+Device ID: PCI\VEN_8086&DEV_3CE8&SUBSYS_84EF1043&REV_07\3&4F11E61&0&61
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 IIO PCI Express Root Port 2a - 3C04
+Device ID: PCI\VEN_8086&DEV_3C04&SUBSYS_84EF1043&REV_07\3&11583659&0&10
+   Driver: n/a
+
+     Name: Intel(R) C600/X79 series chipset USB2 Enhanced Host Controller #1 - 1D26
+Device ID: PCI\VEN_8086&DEV_1D26&SUBSYS_84EF1043&REV_06\3&11583659&0&E8
+   Driver: n/a
+
+     Name: Intel(R) C600/X79 series chipset PCI Express Root Port 1 - 1D10
+Device ID: PCI\VEN_8086&DEV_1D10&SUBSYS_84EF1043&REV_B6\3&11583659&0&E0
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Processor Home Agent Performance Monitoring - 3C46
+Device ID: PCI\VEN_8086&DEV_3C46&SUBSYS_84EF1043&REV_07\3&4F11E61&0&71
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Processor Home Agent - 3CA0
+Device ID: PCI\VEN_8086&DEV_3CA0&SUBSYS_84EF1043&REV_07\3&4F11E61&0&70
+   Driver: n/a
+
+     Name: NVIDIA GeForce GTX 690
+Device ID: PCI\VEN_10DE&DEV_1188&SUBSYS_26903842&REV_A1\6&269287FD&0&00800010
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 1 - 3CB1
+Device ID: PCI\VEN_8086&DEV_3CB1&SUBSYS_84EF1043&REV_07\3&4F11E61&0&81
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Power Control Unit 0 - 3CC0
+Device ID: PCI\VEN_8086&DEV_3CC0&SUBSYS_84EF1043&REV_07\3&4F11E61&0&50
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Unicast Register 0 - 3CE8
+Device ID: PCI\VEN_8086&DEV_3CE8&SUBSYS_84EF1043&REV_07\3&4F11E61&0&60
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 IIO PCI Express Root Port 1a - 3C02
+Device ID: PCI\VEN_8086&DEV_3C02&SUBSYS_84EF1043&REV_07\3&11583659&0&08
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Ring to QuickPath Interconnect Link 1 Performance Monitor - 3C45
+Device ID: PCI\VEN_8086&DEV_3C45&SUBSYS_84EF1043&REV_07\3&4F11E61&0&9E
+   Driver: n/a
+
+     Name: Intel(R) C600 Series Chipset SATA AHCI Controller
+Device ID: PCI\VEN_8086&DEV_1D02&SUBSYS_84EF1043&REV_06\3&11583659&0&FA
+   Driver: n/a
+
 ------------------
 DirectShow Filters
 ------------------
@@ -849,6 +927,7 @@ File writer,0x00200000,1,0,qcap.dll,6.06.7601.17514
 iTV Data Sink,0x00600000,1,0,itvdata.dll,6.06.7601.17514
 iTV Data Capture filter,0x00600000,1,1,itvdata.dll,6.06.7601.17514
 GrabFrame,0x00200000,1,1,framegrab.ax,
+WAV Dest,0x00000000,0,0,,
 DVD Navigator,0x00200000,0,3,qdvd.dll,6.06.7601.17713
 Overlay Mixer2,0x00200000,1,1,qdvd.dll,6.06.7601.17713
 HH Multi Step Renderer,0x00200000,1,0,flexrend.ax,
@@ -976,12 +1055,12 @@ Tee/Sink-to-Sink-Konvertierung,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
 
 Audio Renderers:
 Lautsprecher (Corsair Vengeance,0x00200000,1,0,quartz.dll,6.06.7601.17713
-237E4-0 (NVIDIA High Definition,0x00200000,1,0,quartz.dll,6.06.7601.17713
-237E4-C (2- NVIDIA High Definit,0x00200000,1,0,quartz.dll,6.06.7601.17713
+237E4-0 (2- NVIDIA High Definit,0x00200000,1,0,quartz.dll,6.06.7601.17713
+237E4-C (NVIDIA High Definition,0x00200000,1,0,quartz.dll,6.06.7601.17713
 Default DirectSound Device,0x00800000,1,0,quartz.dll,6.06.7601.17713
 Default WaveOut Device,0x00200000,1,0,quartz.dll,6.06.7601.17713
-DirectSound: 237E4-0 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713
-DirectSound: 237E4-C (2- NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713
+DirectSound: 237E4-0 (2- NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713
+DirectSound: 237E4-C (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713
 DirectSound: Lautsprecher (Corsair Vengeance 2000 Headset),0x00200000,1,0,quartz.dll,6.06.7601.17713
 DirectSound: Lautsprecher (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713
 DirectSound: Realtek Digital Output (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713

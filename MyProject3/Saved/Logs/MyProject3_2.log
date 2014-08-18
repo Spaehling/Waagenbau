@@ -1,4 +1,4 @@
-Log file open, 07/25/14 02:47:58
+Log file open, 07/29/14 23:48:57
 LogInit:Display: Running engine for game: MyProject3
 LogInit: Version: 4.3.0-2215663+++depot+UE4-Releases+4.3
 LogInit: API Version: 2215663
@@ -8,410 +8,283 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.3
 LogInit: Command line:  
 LogInit: Base directory: E:/Unreal Engine/4.3/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.07.25-00.47.58:787][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2014.07.25-00.47.58:831][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.07.25-00.47.58:836][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.07.25-00.47.58:842][  0]LogInit: Object subsystem initialized
-[2014.07.25-00.47.58:844][  0]LogInit: Selected Device Profile: [Windows]
-[2014.07.25-00.47.58:844][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.07.25-00.47.58:847][  0]LogInit: Computer: SPAEHLING-PC
-[2014.07.25-00.47.58:847][  0]LogInit: User: Spaehling
-[2014.07.25-00.47.58:848][  0]LogInit: CPU Page size=4096, Cores=6
-[2014.07.25-00.47.58:848][  0]LogInit: High frequency timer resolution =3.126943 MHz
-[2014.07.25-00.47.58:848][  0]LogMemory: Memory total: Physical=64.0GB (64GB approx) Virtual=8192.0GB
-[2014.07.25-00.47.58:848][  0]LogMemory: Platform Memory Stats for Windows
-[2014.07.25-00.47.58:848][  0]LogMemory: Process Physical Memory: 65.96 MB used, 65.96 MB peak
-[2014.07.25-00.47.58:848][  0]LogMemory: Process Virtual Memory: 42.57 MB used, 43.91 MB peak
-[2014.07.25-00.47.58:848][  0]LogMemory: Physical Memory: 7680.31 MB used, 65486.15 MB total
-[2014.07.25-00.47.58:848][  0]LogMemory: Virtual Memory: 252.21 MB used, 8388608.00 MB total
-[2014.07.25-00.47.58:890][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 690 (Feature Level 11_0)
-[2014.07.25-00.47.58:891][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
-[2014.07.25-00.47.58:911][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 690 (Feature Level 11_0)
-[2014.07.25-00.47.58:911][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
-[2014.07.25-00.47.58:911][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.07.25-00.47.58:916][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2014.07.25-00.47.58:925][  0]LogD3D11RHI: Async texture creation enabled
-[2014.07.25-00.47.58:967][  0]LogTextLocalizationManager:Warning: The selected culture 'de_DE' is not available; falling back to 'en'
-[2014.07.25-00.47.59:021][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.07.25-00.48.00:922][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.07.25-00.48.00:991][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.07.25-00.48.01:017][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.07.25-00.48.01:051][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Spaehling/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
-[2014.07.25-00.48.01:051][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Spaehling/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc
-[2014.07.25-00.48.01:051][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UDK4 Projects/Waagenbau/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.07.25-00.48.01:051][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.07.25-00.48.01:066][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.07.25-00.48.01:077][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Spaehling/AppData/Local/UnrealEngine/4.3/DerivedDataCache: Writable
-[2014.07.25-00.48.01:196][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.07.25-00.48.01:196][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.07.25-00.48.01:468][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.07.25-00.48.02:004][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DefaultPaperTerrainMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.07.25-00.48.02:004][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DummySprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.07.25-00.48.02:005][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.07.25-00.48.02:096][  0]SourceControl: Info Source control is disabled
-[2014.07.25-00.48.02:096][  0]SourceControl: Info Source control is disabled
-[2014.07.25-00.48.02:101][  0]SourceControl: Info Source control is disabled
-[2014.07.25-00.48.02:190][  0]BlueprintLog: New page: Editor Load
-[2014.07.25-00.48.02:217][  0]LogObj: 20265 objects as part of root set at end of initial load.
-[2014.07.25-00.48.02:217][  0]LogUObjectAllocator: 4015024 out of 0 bytes used by permanent object pool.
-[2014.07.25-00.48.02:339][  0]LogEngine: Initializing Engine...
-[2014.07.25-00.48.02:430][  0]LogInit: XAudio2 using 'Lautsprecher (Corsair Vengeance 2000 Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
-[2014.07.25-00.48.02:438][  0]LogInit: FAudioDevice initialized.
-[2014.07.25-00.48.02:448][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.07.25-00.48.02:467][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Spaehling/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
-[2014.07.25-00.48.02:471][  0]LogInit: Texture streaming: Enabled
-[2014.07.25-00.48.02:490][  0]LogInit: Transaction tracking system initialized
-[2014.07.25-00.48.02:550][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
-[2014.07.25-00.48.02:644][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.07.25-00.48.02:668][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.07.25-00.48.02:735][  0]LogConsoleResponse:Display: 
-[2014.07.25-00.48.02:838][  0]SourceControl: Info Source control is disabled
-[2014.07.25-00.48.11:056][  0]Cmd: MAP LOAD FILE="D:/UDK4 Projects/Waagenbau/Content/Maps/waagenbau.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.07.25-00.48.11:057][  0]LightingResults: New page: Lighting Build
-[2014.07.25-00.48.11:062][  0]MapCheck: New page: Map Check
-[2014.07.25-00.48.11:062][  0]LightingResults: New page: Lighting Build
-[2014.07.25-00.48.11:067][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000127C5440
-[2014.07.25-00.48.12:666][  0]LogBlueprint:Warning: Node '/Game/Blueprints/Assets/Cigarettes.cigarettes:UserConstructionScript.K2Node_VariableGet_424' missing NodeGuid.
-[2014.07.25-00.48.13:169][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_19)
-[2014.07.25-00.48.13:170][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_24)
-[2014.07.25-00.48.13:171][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_25)
-[2014.07.25-00.48.13:171][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_26)
-[2014.07.25-00.48.13:172][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_27)
-[2014.07.25-00.48.13:173][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_28)
-[2014.07.25-00.48.13:173][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_29)
-[2014.07.25-00.48.13:174][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_30)
-[2014.07.25-00.48.13:175][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_31)
-[2014.07.25-00.48.13:175][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_32)
-[2014.07.25-00.48.13:176][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_33)
-[2014.07.25-00.48.13:177][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_34)
-[2014.07.25-00.48.13:178][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_35)
-[2014.07.25-00.48.13:178][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_36)
-[2014.07.25-00.48.13:179][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_37)
-[2014.07.25-00.48.13:180][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_38)
-[2014.07.25-00.48.13:180][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_39)
-[2014.07.25-00.48.13:181][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_40)
-[2014.07.25-00.48.13:182][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_41)
-[2014.07.25-00.48.13:182][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_42)
-[2014.07.25-00.48.13:183][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_43)
-[2014.07.25-00.48.13:184][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_44)
-[2014.07.25-00.48.13:184][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_45)
-[2014.07.25-00.48.13:185][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (WallSconce_24)
-[2014.07.25-00.48.14:035][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.07.25-00.48.14:035][  0]LogAIModule: Creating AISystem for world waagenbau
-[2014.07.25-00.48.14:036][  0]Cmd: MAP CHECKDEP
-[2014.07.25-00.48.14:036][  0]MapCheck: New page: waagenbau - Jul 25, 2014, 4:48:14 AM
-[2014.07.25-00.48.14:149][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [112.714ms] ==========
-[2014.07.25-00.48.14:149][  0]LogFileHelpers: Loading map 'waagenbau' took 3.093
-[2014.07.25-00.48.14:313][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_13c4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_3440_0///////STATCAT_Advanced////
-[2014.07.25-00.48.14:313][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.07.25-00.48.14:344][  0]LogLoad: Full Startup: 16.32 seconds (BP compile: 0.58 seconds)
-[2014.07.25-00.48.14:472][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
-[2014.07.25-00.48.14:526][  0]LogSlate: SRTH: 000000001EE47580, 1156 x 853
-[2014.07.25-00.48.14:561][  0]LogRenderer:Warning: Reallocating scene render targets to support 1160x856.
-[2014.07.25-00.48.14:666][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>E7BE917D39E5FCC3</RequestId><HostId>+/YG9eEKFhj0cp+LdYo/6F/RkBvQ1NZiOc/1YF7bkh60rHrAX0SqD53CrtueDWAThIBFr3Mj2aw=</HostId></Error>
-[2014.07.25-00.48.14:848][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>B4B3BAD753D489BD</RequestId><HostId>bCGbjUaoyU8EuQSck256K/wgkCN+9iYEUrWGoGEQ8B46I48ep0hVCj1NguRxYW80+DY9ymGj7Tg=</HostId></Error>
-[2014.07.25-00.48.14:879][  2]LogAssetRegistry: Asset discovery search completed in 12.3393 seconds
-[2014.07.25-00.48.14:931][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>E7BE917D39E5FCC3</RequestId><HostId>+/YG9eEKFhj0cp+LdYo/6F/RkBvQ1NZiOc/1YF7bkh60rHrAX0SqD53CrtueDWAThIBFr3Mj2aw=</HostId></Error>
-[2014.07.25-00.48.14:971][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>B4B3BAD753D489BD</RequestId><HostId>bCGbjUaoyU8EuQSck256K/wgkCN+9iYEUrWGoGEQ8B46I48ep0hVCj1NguRxYW80+DY9ymGj7Tg=</HostId></Error>
-[2014.07.25-00.48.15:025][ 10]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.07.25-00.48.15:026][ 10]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.07.25-00.48.15:187][ 30]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>2B6CB62DF018798E</RequestId><HostId>VH+y4I8Yr1Sb9lRbN8yDAjrf5ftUMs4jKmyK2DAm1olS4Mg6CSKLTvVzjEMcv4Zo</HostId></Error>
-[2014.07.25-00.50.55:673][693]LogCollectionManager: Loaded 0 collections in 0.000857 seconds
-[2014.07.25-00.50.55:684][693]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/GameLogic'
-[2014.07.25-00.51.04:422][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.07.25-00.53.52:768][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameLogic/DancingZone" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset" SILENT=true
-[2014.07.25-00.53.52:817][725]LogSavePackage: Save=32.350124ms
-[2014.07.25-00.53.52:817][725]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/DancingZone89CCCB59460A112514846AB641785E95.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.53.52:818][725]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset', retrying in .5s...
-[2014.07.25-00.53.53:318][725]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'.
-[2014.07.25-00.53.53:318][725]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.53.54:666][725]EditorErrors: New page: Save Output
-[2014.07.25-00.53.54:666][725]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.54.34:728][584]LogEditorViewport: Clicking on Actor (context menu): BotCharacter_Male_C (BotCharacter_34)
-[2014.07.25-00.55.20:005][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BotCharacter_Male" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset" SILENT=true
-[2014.07.25-00.55.20:352][440]LogSavePackage: Save=339.661774ms
-[2014.07.25-00.55.20:352][440]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/BotCharacter_MaleD524BB814C3DF0EA25CBF5A7F891EFE1.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.55.20:352][440]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset', retrying in .5s...
-[2014.07.25-00.55.20:852][440]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'.
-[2014.07.25-00.55.20:852][440]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.55.27:670][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BotCharacter_Male" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset" SILENT=true
-[2014.07.25-00.55.27:730][440]LogSavePackage: Save=53.394962ms
-[2014.07.25-00.55.27:730][440]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/BotCharacter_MaleB4FB73344B0815ACDA88E2B7D5361AA7.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.55.27:730][440]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset', retrying in .5s...
-[2014.07.25-00.55.28:230][440]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'.
-[2014.07.25-00.55.28:230][440]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.55.29:199][440]EditorErrors: New page: Save Output
-[2014.07.25-00.55.29:199][440]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.55.29:199][440]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.55.45:428][248]BlueprintLog: New page: Compile DancingZone
-[2014.07.25-00.55.45:513][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2014.07.25-00.55.45:537][248]BlueprintEditorCompileResults: Info [0467.42] Compile of DancingZone successful! [in 3 ms]
-[2014.07.25-00.55.46:316][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameLogic/DancingZone" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset" SILENT=true
-[2014.07.25-00.55.46:343][272]LogSavePackage: Save=20.242134ms
-[2014.07.25-00.55.46:343][272]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/DancingZone9BA9B9024BE08E1AB8E3EBB755B34774.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.46:343][272]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset', retrying in .5s...
-[2014.07.25-00.55.46:843][272]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'.
-[2014.07.25-00.55.46:843][272]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.49:099][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameLogic/DancingZone" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset" SILENT=true
-[2014.07.25-00.55.49:124][272]LogSavePackage: Save=19.501795ms
-[2014.07.25-00.55.49:124][272]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/DancingZone8A833C2E4F89FEA2D1E6D580D5B08A10.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.49:124][272]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset', retrying in .5s...
-[2014.07.25-00.55.49:624][272]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'.
-[2014.07.25-00.55.49:624][272]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.50:229][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameLogic/DancingZone" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset" SILENT=true
-[2014.07.25-00.55.50:255][272]LogSavePackage: Save=19.669050ms
-[2014.07.25-00.55.50:255][272]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/DancingZone1331B9DC435723350462BD8DE2CC6DC4.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.50:256][272]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset', retrying in .5s...
-[2014.07.25-00.55.50:756][272]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'.
-[2014.07.25-00.55.50:756][272]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.51:289][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameLogic/DancingZone" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset" SILENT=true
-[2014.07.25-00.55.51:315][272]LogSavePackage: Save=19.843342ms
-[2014.07.25-00.55.51:315][272]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/DancingZoneFDC95EDE42FB8F2BE766C9B8ACB11DB2.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.51:315][272]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset', retrying in .5s...
-[2014.07.25-00.55.51:815][272]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'.
-[2014.07.25-00.55.51:815][272]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.52:261][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameLogic/DancingZone" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset" SILENT=true
-[2014.07.25-00.55.52:286][272]LogSavePackage: Save=19.435596ms
-[2014.07.25-00.55.52:287][272]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/DancingZone74F4944A4E1B2ED4E00AE1894847902D.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.52:287][272]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset', retrying in .5s...
-[2014.07.25-00.55.52:787][272]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'.
-[2014.07.25-00.55.52:787][272]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.53:080][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameLogic/DancingZone" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset" SILENT=true
-[2014.07.25-00.55.53:108][272]LogSavePackage: Save=20.271557ms
-[2014.07.25-00.55.53:108][272]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/DancingZone797D9B8141933B00F57A88A763A18773.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.53:108][272]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset', retrying in .5s...
-[2014.07.25-00.55.53:608][272]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'.
-[2014.07.25-00.55.53:608][272]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.53:935][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameLogic/DancingZone" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset" SILENT=true
-[2014.07.25-00.55.53:973][272]LogSavePackage: Save=27.818863ms
-[2014.07.25-00.55.53:973][272]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/DancingZoneFC08AA8A4F1320C5A97CEEAE1F85B5D3.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.53:974][272]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset', retrying in .5s...
-[2014.07.25-00.55.54:474][272]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'.
-[2014.07.25-00.55.54:474][272]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.55:269][272]EditorErrors: New page: Save Output
-[2014.07.25-00.55.55:270][272]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.55:270][272]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.55:270][272]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.55:270][272]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.55:270][272]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.55:270][272]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.55.55:270][272]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.56.07:296][860]BlueprintLog: New page: Compile DancingZone
-[2014.07.25-00.56.07:401][860]BlueprintEditorCompileResults: Info [0489.29] Compile of DancingZone successful! [in 3 ms]
-[2014.07.25-00.57.05:664][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameLogic/DancingZone" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset" SILENT=true
-[2014.07.25-00.57.05:689][563]LogSavePackage: Save=19.289766ms
-[2014.07.25-00.57.05:689][563]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/DancingZone7862E88C48045D183F66738E53AA8BD7.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.57.05:690][563]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset', retrying in .5s...
-[2014.07.25-00.57.06:190][563]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'.
-[2014.07.25-00.57.06:190][563]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.57.08:229][563]EditorErrors: New page: Save Output
-[2014.07.25-00.57.08:230][563]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.58.10:309][911]LogSavePackage: Save=497.620514ms
-[2014.07.25-00.58.10:309][911]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/waagenbau001595E04A1BE74B2F158BAE83480218.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Maps/waagenbau.umap'
-[2014.07.25-00.58.10:377][911]LogFileHelpers: Saving map 'waagenbau' took 0.681
-[2014.07.25-00.58.10:380][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BotCharacter_Male" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset" SILENT=true
-[2014.07.25-00.58.10:445][911]LogSavePackage: Save=58.891705ms
-[2014.07.25-00.58.10:445][911]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/BotCharacter_Male336E588C44ABD32C0CFFEEAA4151A76F.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.58.10:445][911]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset', retrying in .5s...
-[2014.07.25-00.58.10:945][911]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'.
-[2014.07.25-00.58.10:945][911]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.58.12:650][911]EditorErrors: New page: Save Output
-[2014.07.25-00.58.12:650][911]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.58.20:086][386]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CDDDEE0
-[2014.07.25-00.58.20:086][386]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ACB2A20
-[2014.07.25-00.58.21:747][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BotCharacter_Male" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset" SILENT=true
-[2014.07.25-00.58.21:803][386]LogSavePackage: Save=50.220615ms
-[2014.07.25-00.58.21:803][386]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/BotCharacter_Male9550D0E04204DE6A57E3619749BD3C4F.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.58.21:803][386]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset', retrying in .5s...
-[2014.07.25-00.58.22:303][386]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'.
-[2014.07.25-00.58.22:303][386]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.58.23:540][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BotCharacter_Male" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset" SILENT=true
-[2014.07.25-00.58.23:596][386]LogSavePackage: Save=50.586468ms
-[2014.07.25-00.58.23:596][386]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/BotCharacter_Male96082E72497367A987980CBB8DEFD0BA.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.58.23:597][386]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset', retrying in .5s...
-[2014.07.25-00.58.24:097][386]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'.
-[2014.07.25-00.58.24:097][386]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.58.24:898][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameLogic/DancingZone" FILE="D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset" SILENT=true
-[2014.07.25-00.58.24:936][386]LogSavePackage: Save=29.281633ms
-[2014.07.25-00.58.24:936][386]LogSavePackage: Moving 'D:/UDK4 Projects/Waagenbau/Saved/DancingZoneD1CF5B8F45AF06F1E6859194252F55AA.tmp' to 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.58.24:937][386]LogFileManager:Warning: DeleteFile was unable to delete 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset', retrying in .5s...
-[2014.07.25-00.58.25:437][386]LogFileManager:Error: Error deleting file 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'.
-[2014.07.25-00.58.25:437][386]LogSavePackage:Error: Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.58.26:899][386]EditorErrors: New page: Save Output
-[2014.07.25-00.58.26:900][386]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.58.26:900][386]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/Characters/BotCharacter_Male.uasset'
-[2014.07.25-00.58.26:900][386]EditorErrors:Warning: Warning Error saving 'D:/UDK4 Projects/Waagenbau/Content/Blueprints/GameLogic/DancingZone.uasset'
-[2014.07.25-00.58.32:323][501]Cmd: QUIT_EDITOR
-[2014.07.25-00.58.32:400][501]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.07.25-00.58.32:401][501]LogExit: Preparing to exit.
-[2014.07.25-00.58.33:225][501]LogExit: Editor shut down
-[2014.07.25-00.58.33:225][501]LogExit: Transaction tracking system shut down
-[2014.07.25-00.58.33:227][501]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CD8D620
-[2014.07.25-00.58.33:228][501]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ECAF880
-[2014.07.25-00.58.33:263][501]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027635440
-[2014.07.25-00.58.33:263][501]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027634FE0
-[2014.07.25-00.58.33:263][501]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027634F40
-[2014.07.25-00.58.33:263][501]LogExit: Object subsystem successfully closed.
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module EditorWidgets (173)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module CollectionManager (172)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (171)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (170)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module CrashTracker (169)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module HTTP (168)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module NewsFeed (167)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module SceneOutliner (166)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module StatsViewer (165)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module FoliageEdit (164)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module LandscapeEditor (163)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module MeshPaint (162)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module ActorPickerMode (161)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module GeometryMode (160)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module TextureAlignMode (159)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module BspMode (158)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module PlacementMode (157)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module DesktopPlatform (156)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module AutomationWorker (155)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (154)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
-[2014.07.25-00.58.33:286][501]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module XmlParser (149)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module Blutility (148)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (147)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (146)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module SessionLauncher (138)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (127)
-[2014.07.25-00.58.33:287][501]LogModuleManager: Shutting down and abandoning module AssetRegistry (126)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module Persona (125)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module GraphEditor (124)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module ClassViewer (123)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module Toolbox (122)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module ModuleUI (121)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module Sequencer (120)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module OutputLog (118)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module GammaUI (117)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module Documentation (116)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (115)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module AnalyticsET (114)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module Analytics (113)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module GameplayDebugger (112)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module AIModule (111)
-[2014.07.25-00.58.33:363][501]LogModuleManager: Shutting down and abandoning module ProfilerService (110)
-[2014.07.25-00.58.33:512][501]LogModuleManager: Shutting down and abandoning module TaskGraph (109)
-[2014.07.25-00.58.33:512][501]LogModuleManager: Shutting down and abandoning module ViewportSnapping (108)
-[2014.07.25-00.58.33:512][501]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (107)
-[2014.07.25-00.58.33:512][501]LogModuleManager: Shutting down and abandoning module Matinee (106)
-[2014.07.25-00.58.33:512][501]LogModuleManager: Shutting down and abandoning module Kismet (105)
-[2014.07.25-00.58.33:512][501]LogModuleManager: Shutting down and abandoning module SlateReflector (104)
-[2014.07.25-00.58.33:512][501]LogModuleManager: Shutting down and abandoning module LevelEditor (103)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module IntroTutorials (102)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module ContentBrowser (101)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module MainFrame (100)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module SourceControl (99)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module ImageWrapper (98)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (97)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module PropertyEditor (96)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module AssetTools (95)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (94)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module FunctionalTesting (93)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (92)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (91)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module MessageLog (90)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module Slate (89)
-[2014.07.25-00.58.33:514][501]LogModuleManager: Shutting down and abandoning module EditorStyle (88)
-[2014.07.25-00.58.33:517][501]LogModuleManager: Shutting down and abandoning module SessionServices (87)
-[2014.07.25-00.58.33:517][501]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (86)
-[2014.07.25-00.58.33:518][501]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (85)
-[2014.07.25-00.58.33:518][501]LogModuleManager: Shutting down and abandoning module XAudio2 (84)
-[2014.07.25-00.58.33:518][501]LogModuleManager: Shutting down and abandoning module Networking (82)
-[2014.07.25-00.58.33:518][501]LogModuleManager: Shutting down and abandoning module Core (81)
-[2014.07.25-00.58.33:518][501]LogModuleManager: Shutting down and abandoning module KismetCompiler (80)
-[2014.07.25-00.58.33:518][501]LogModuleManager: Shutting down and abandoning module PhysXFormats (79)
-[2014.07.25-00.58.33:518][501]LogModuleManager: Shutting down and abandoning module MeshUtilities (78)
-[2014.07.25-00.58.33:518][501]LogModuleManager: Shutting down and abandoning module DerivedDataCache (77)
-[2014.07.25-00.58.33:613][501]LogDerivedDataCache: Shutdown
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (76)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (75)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (74)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (73)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (72)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (71)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (70)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (69)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (68)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (67)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module Messaging (66)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (65)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (64)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (63)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (62)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (61)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (60)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (59)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (58)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (57)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (56)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (55)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module TargetPlatform (54)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module InputCore (53)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module Settings (52)
-[2014.07.25-00.58.33:613][501]LogModuleManager: Shutting down and abandoning module TextureCompressor (49)
-[2014.07.25-00.58.33:614][501]LogModuleManager: Shutting down and abandoning module ShaderCore (48)
-[2014.07.25-00.58.33:614][501]LogModuleManager: Shutting down and abandoning module OpenGLDrv (47)
-[2014.07.25-00.58.33:614][501]LogModuleManager: Shutting down and abandoning module D3D11RHI (46)
-[2014.07.25-00.58.33:614][501]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (45)
-[2014.07.25-00.58.33:614][501]LogModuleManager: Shutting down and abandoning module Renderer (44)
-[2014.07.25-00.58.33:614][501]LogModuleManager: Shutting down and abandoning module Engine (43)
-[2014.07.25-00.58.33:614][501]LogModuleManager: Shutting down and abandoning module SlateRemote (42)
-[2014.07.25-00.58.33:614][501]LogModuleManager: Shutting down and abandoning module ScriptPlugin (41)
-[2014.07.25-00.58.33:614][501]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (39)
-[2014.07.25-00.58.33:614][501]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (38)
-[2014.07.25-00.58.33:625][501]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (31)
-[2014.07.25-00.58.33:625][501]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (30)
-[2014.07.25-00.58.33:625][501]LogModuleManager: Shutting down and abandoning module CableComponent (29)
-[2014.07.25-00.58.33:625][501]LogModuleManager: Shutting down and abandoning module OculusRift (25)
-[2014.07.25-00.58.33:625][501]LogModuleManager: Shutting down and abandoning module UdpMessaging (24)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module MessagingDebugger (23)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module SmartSnapping (21)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (20)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module Paper2DEditor (19)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module Paper2D (18)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (14)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module PluginsEditor (13)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.07.25-00.58.33:725][501]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.07.25-00.58.33:725][501]LogExit: Exiting.
-[2014.07.25-00.58.33:727][501]Log file closed, 07/25/14 02:58:33
+[2014.07.29-21.48.57:083][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.07.29-21.48.57:129][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.07.29-21.48.57:135][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.07.29-21.48.57:141][  0]LogInit: Object subsystem initialized
+[2014.07.29-21.48.57:143][  0]LogInit: Selected Device Profile: [Windows]
+[2014.07.29-21.48.57:143][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.07.29-21.48.57:146][  0]LogInit: Computer: SPAEHLING-PC
+[2014.07.29-21.48.57:146][  0]LogInit: User: Spaehling
+[2014.07.29-21.48.57:148][  0]LogInit: CPU Page size=4096, Cores=6
+[2014.07.29-21.48.57:148][  0]LogInit: High frequency timer resolution =3.126962 MHz
+[2014.07.29-21.48.57:148][  0]LogMemory: Memory total: Physical=64.0GB (64GB approx) Virtual=8192.0GB
+[2014.07.29-21.48.57:148][  0]LogMemory: Platform Memory Stats for Windows
+[2014.07.29-21.48.57:148][  0]LogMemory: Process Physical Memory: 66.49 MB used, 66.49 MB peak
+[2014.07.29-21.48.57:148][  0]LogMemory: Process Virtual Memory: 43.23 MB used, 44.85 MB peak
+[2014.07.29-21.48.57:148][  0]LogMemory: Physical Memory: 13241.07 MB used, 65486.15 MB total
+[2014.07.29-21.48.57:148][  0]LogMemory: Virtual Memory: 252.84 MB used, 8388608.00 MB total
+[2014.07.29-21.48.57:191][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 690 (Feature Level 11_0)
+[2014.07.29-21.48.57:191][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.07.29-21.48.57:214][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 690 (Feature Level 11_0)
+[2014.07.29-21.48.57:214][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.07.29-21.48.57:214][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.07.29-21.48.57:219][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.07.29-21.48.57:228][  0]LogD3D11RHI: Async texture creation enabled
+[2014.07.29-21.48.57:270][  0]LogTextLocalizationManager:Warning: The selected culture 'de_DE' is not available; falling back to 'en'
+[2014.07.29-21.48.57:330][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.07.29-21.48.59:382][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.29-21.48.59:462][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.29-21.48.59:491][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.07.29-21.48.59:533][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/Spaehling/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.07.29-21.48.59:533][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Spaehling/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc
+[2014.07.29-21.48.59:533][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UDK4 Projects/Waagenbau/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.07.29-21.48.59:533][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.07.29-21.48.59:549][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.07.29-21.48.59:561][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Spaehling/AppData/Local/UnrealEngine/4.3/DerivedDataCache: Writable
+[2014.07.29-21.48.59:699][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.07.29-21.48.59:699][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.07.29-21.48.59:994][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.07.29-21.49.00:582][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DefaultPaperTerrainMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.07.29-21.49.00:582][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Experimental/Paper2D/Content/DummySprite.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.07.29-21.49.00:583][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.07.29-21.49.00:653][  0]SourceControl: Info Source control is disabled
+[2014.07.29-21.49.00:653][  0]SourceControl: Info Source control is disabled
+[2014.07.29-21.49.00:657][  0]SourceControl: Info Source control is disabled
+[2014.07.29-21.49.00:757][  0]BlueprintLog: New page: Editor Load
+[2014.07.29-21.49.00:788][  0]LogObj: 20265 objects as part of root set at end of initial load.
+[2014.07.29-21.49.00:788][  0]LogUObjectAllocator: 4015024 out of 0 bytes used by permanent object pool.
+[2014.07.29-21.49.00:927][  0]LogEngine: Initializing Engine...
+[2014.07.29-21.49.01:029][  0]LogInit: XAudio2 using 'Lautsprecher (Corsair Vengeance 2000 Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
+[2014.07.29-21.49.01:038][  0]LogInit: FAudioDevice initialized.
+[2014.07.29-21.49.01:049][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.07.29-21.49.01:077][  0]LogDerivedDataCache: Saved boot cache 0.03s 46MB C:/Users/Spaehling/AppData/Local/UnrealEngine/4.3/DerivedDataCache/Boot.ddc.
+[2014.07.29-21.49.01:082][  0]LogInit: Texture streaming: Enabled
+[2014.07.29-21.49.01:103][  0]LogInit: Transaction tracking system initialized
+[2014.07.29-21.49.01:169][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2014.07.29-21.49.01:284][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.29-21.49.01:310][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.29-21.49.01:392][  0]LogConsoleResponse:Display: 
+[2014.07.29-21.49.01:514][  0]SourceControl: Info Source control is disabled
+[2014.07.29-21.50.04:365][  0]Cmd: MAP LOAD FILE="D:/UDK4 Projects/Waagenbau/Content/Maps/waagenbau.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.07.29-21.50.04:365][  0]LightingResults: New page: Lighting Build
+[2014.07.29-21.50.04:370][  0]MapCheck: New page: Map Check
+[2014.07.29-21.50.04:370][  0]LightingResults: New page: Lighting Build
+[2014.07.29-21.50.04:378][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000118FD440
+[2014.07.29-21.50.06:907][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_25)
+[2014.07.29-21.50.06:908][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_26)
+[2014.07.29-21.50.06:909][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_27)
+[2014.07.29-21.50.06:909][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_28)
+[2014.07.29-21.50.06:910][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_29)
+[2014.07.29-21.50.06:911][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_30)
+[2014.07.29-21.50.06:911][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_31)
+[2014.07.29-21.50.06:912][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_32)
+[2014.07.29-21.50.06:913][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_33)
+[2014.07.29-21.50.06:913][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_34)
+[2014.07.29-21.50.06:914][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_35)
+[2014.07.29-21.50.06:915][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_36)
+[2014.07.29-21.50.06:916][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_37)
+[2014.07.29-21.50.06:916][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_38)
+[2014.07.29-21.50.06:917][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_39)
+[2014.07.29-21.50.06:918][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_40)
+[2014.07.29-21.50.06:919][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_41)
+[2014.07.29-21.50.06:920][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_42)
+[2014.07.29-21.50.06:921][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_43)
+[2014.07.29-21.50.06:922][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_44)
+[2014.07.29-21.50.06:923][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_45)
+[2014.07.29-21.50.06:924][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_46)
+[2014.07.29-21.50.06:925][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_47)
+[2014.07.29-21.50.06:925][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_48)
+[2014.07.29-21.50.06:926][  0]LogBlueprintUserMessages:Warning: SetTimer passed a bad function () or object (DiscoLight_1_C_49)
+[2014.07.29-21.50.08:084][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.29-21.50.08:084][  0]LogAIModule: Creating AISystem for world waagenbau
+[2014.07.29-21.50.08:085][  0]Cmd: MAP CHECKDEP
+[2014.07.29-21.50.08:085][  0]MapCheck: New page: waagenbau - Jul 30, 2014, 1:50:08 AM
+[2014.07.29-21.50.08:173][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [87.468ms] ==========
+[2014.07.29-21.50.08:173][  0]LogFileHelpers: Loading map 'waagenbau' took 3.808
+[2014.07.29-21.50.08:353][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_3654_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_35ac_0///////STATCAT_Advanced////
+[2014.07.29-21.50.08:353][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.07.29-21.50.08:429][  0]LogLoad: Full Startup: 72.18 seconds (BP compile: 0.78 seconds)
+[2014.07.29-21.50.08:547][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.07.29-21.50.08:600][  0]LogSlate: SRTH: 00000000279C3580, 1207 x 853
+[2014.07.29-21.50.08:635][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x856.
+[2014.07.29-21.50.08:854][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>86CC99F8FBA27796</RequestId><HostId>izIiaV47hTrowm8oUz0xsdtk2MPAiYn57UOx0p2dG4yTbmTATd7xAOCD6cuteI5Y</HostId></Error>
+[2014.07.29-21.50.08:993][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>47C6E00AA7F8F09F</RequestId><HostId>VTrcCwsVzJbZVpfz+o00+tBlHGPrEbG2d0zz0q0++0sUGIWZwtQbkcJDNb77dIN1</HostId></Error>
+[2014.07.29-21.50.09:273][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>86CC99F8FBA27796</RequestId><HostId>izIiaV47hTrowm8oUz0xsdtk2MPAiYn57UOx0p2dG4yTbmTATd7xAOCD6cuteI5Y</HostId></Error>
+[2014.07.29-21.50.09:275][  3]LogAssetRegistry: Asset discovery search completed in 68.1149 seconds
+[2014.07.29-21.50.09:309][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>47C6E00AA7F8F09F</RequestId><HostId>VTrcCwsVzJbZVpfz+o00+tBlHGPrEbG2d0zz0q0++0sUGIWZwtQbkcJDNb77dIN1</HostId></Error>
+[2014.07.29-21.50.09:374][  7]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>02E46C4644E78036</RequestId><HostId>yDd/jRXOvn7LbmKK/Qby4dVHG9l3/eA5MQpoviXsFqmimLQycFU9HHuqBwaY9fRP</HostId></Error>
+[2014.07.29-21.50.09:385][  8]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.29-21.50.09:387][  8]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.29-21.50.11:478][ 79]LogSlate: SRTH: 000000001DE34C40, 654 x 559, prev 0000000000000000
+[2014.07.29-21.50.12:050][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.07.29-21.50.12:648][114]Cmd: QUIT_EDITOR
+[2014.07.29-21.50.12:739][114]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.07.29-21.50.12:741][114]LogExit: Preparing to exit.
+[2014.07.29-21.50.13:749][114]LogExit: Editor shut down
+[2014.07.29-21.50.13:749][114]LogExit: Transaction tracking system shut down
+[2014.07.29-21.50.13:753][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B3D8AE0
+[2014.07.29-21.50.13:756][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000275FEFC0
+[2014.07.29-21.50.13:792][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000275FE7A0
+[2014.07.29-21.50.13:792][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F0A63E0
+[2014.07.29-21.50.13:792][114]LogExit: Object subsystem successfully closed.
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (170)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module CrashTracker (169)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module HTTP (168)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module NewsFeed (167)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module SceneOutliner (166)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module StatsViewer (165)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module FoliageEdit (164)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module LandscapeEditor (163)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module MeshPaint (162)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module ActorPickerMode (161)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module GeometryMode (160)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module TextureAlignMode (159)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module BspMode (158)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module PlacementMode (157)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module DesktopPlatform (156)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module AutomationWorker (155)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (154)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (147)
+[2014.07.29-21.50.13:823][114]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (146)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module SessionLauncher (138)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (127)
+[2014.07.29-21.50.13:824][114]LogModuleManager: Shutting down and abandoning module AssetRegistry (126)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module Persona (125)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module GraphEditor (124)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module ClassViewer (123)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module Toolbox (122)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module ModuleUI (121)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module Sequencer (120)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module OutputLog (118)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module GammaUI (117)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module Documentation (116)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (115)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module AnalyticsET (114)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module Analytics (113)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module GameplayDebugger (112)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module AIModule (111)
+[2014.07.29-21.50.13:862][114]LogModuleManager: Shutting down and abandoning module ProfilerService (110)
+[2014.07.29-21.50.14:054][114]LogModuleManager: Shutting down and abandoning module TaskGraph (109)
+[2014.07.29-21.50.14:054][114]LogModuleManager: Shutting down and abandoning module ViewportSnapping (108)
+[2014.07.29-21.50.14:054][114]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (107)
+[2014.07.29-21.50.14:054][114]LogModuleManager: Shutting down and abandoning module Matinee (106)
+[2014.07.29-21.50.14:054][114]LogModuleManager: Shutting down and abandoning module Kismet (105)
+[2014.07.29-21.50.14:054][114]LogModuleManager: Shutting down and abandoning module SlateReflector (104)
+[2014.07.29-21.50.14:054][114]LogModuleManager: Shutting down and abandoning module LevelEditor (103)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module IntroTutorials (102)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module ContentBrowser (101)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module ImageWrapper (98)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (97)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module PropertyEditor (96)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module AssetTools (95)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (94)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module FunctionalTesting (93)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (92)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (91)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module MessageLog (90)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module Slate (89)
+[2014.07.29-21.50.14:055][114]LogModuleManager: Shutting down and abandoning module EditorStyle (88)
+[2014.07.29-21.50.14:056][114]LogModuleManager: Shutting down and abandoning module SessionServices (87)
+[2014.07.29-21.50.14:056][114]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (86)
+[2014.07.29-21.50.14:056][114]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (85)
+[2014.07.29-21.50.14:056][114]LogModuleManager: Shutting down and abandoning module XAudio2 (84)
+[2014.07.29-21.50.14:056][114]LogModuleManager: Shutting down and abandoning module Networking (82)
+[2014.07.29-21.50.14:056][114]LogModuleManager: Shutting down and abandoning module Core (81)
+[2014.07.29-21.50.14:056][114]LogModuleManager: Shutting down and abandoning module KismetCompiler (80)
+[2014.07.29-21.50.14:056][114]LogModuleManager: Shutting down and abandoning module PhysXFormats (79)
+[2014.07.29-21.50.14:056][114]LogModuleManager: Shutting down and abandoning module MeshUtilities (78)
+[2014.07.29-21.50.14:056][114]LogModuleManager: Shutting down and abandoning module DerivedDataCache (77)
+[2014.07.29-21.50.14:058][114]LogDerivedDataCache: Shutdown
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (76)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (75)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (74)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (73)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (72)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (71)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (70)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (69)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (68)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (67)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module Messaging (66)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (65)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (64)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (63)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (62)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (61)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (60)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (59)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (58)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (57)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (56)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (55)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module TargetPlatform (54)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module InputCore (53)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module Settings (52)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module TextureCompressor (49)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module ShaderCore (48)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module OpenGLDrv (47)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module D3D11RHI (46)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (45)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module Renderer (44)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module Engine (43)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module SlateRemote (42)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module ScriptPlugin (41)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (39)
+[2014.07.29-21.50.14:058][114]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (38)
+[2014.07.29-21.50.14:064][114]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (31)
+[2014.07.29-21.50.14:064][114]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (30)
+[2014.07.29-21.50.14:064][114]LogModuleManager: Shutting down and abandoning module CableComponent (29)
+[2014.07.29-21.50.14:064][114]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2014.07.29-21.50.14:064][114]LogModuleManager: Shutting down and abandoning module UdpMessaging (24)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module MessagingDebugger (23)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module SmartSnapping (21)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (20)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module Paper2DEditor (19)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module Paper2D (18)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (14)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module PluginsEditor (13)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.07.29-21.50.14:164][114]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.07.29-21.50.14:164][114]LogExit: Exiting.
+[2014.07.29-21.50.14:166][114]Log file closed, 07/29/14 23:50:14
